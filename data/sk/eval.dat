@@ -1,0 +1,78 @@
+kolko je hodin
+$time;
+kolko mas hodin
+$time;
+neviete niekto kolko je hodin
+$time;
+nevies kolko je hodin
+$time;
+povedz mi kolko je hodin
+$time;
+aky mas cas
+$time;
+$timereply;
+na mojich hodinkach je
+$timereply;
+moje hodinky ukazuju
+$timereply;
+presny cas je
+$timereply;
+teraz je
+$timereply;
+teraz je
+ktoreho je dnes
+$date;
+aky je dnes datum
+$date;
+co je dnes za den
+$date;
+$datereply;
+je
+$datereply;
+dnesny datum je
+$datereply;
+dnes je
+$datereply;
+dneska je
+$eval;
+kolko je
+$eval;
+vypocitaj
+$eval;
+vypocitaj mi
+$eval;
+vypocitaj kolko je
+$eval;
+spocitaj
+$eval;
+spocitaj mi
+$eval;
+spocitaj kolko je
+$evalreply;
+asi
+$evalreply;
+priblizne
+$evalreply;
+tusim
+$evalreply;
+zeby
+$evalreply;
+cca
+$evalreply;
+ak sa nemylim
+$evalreply;
+ak sa nemylim tak
+$evalreply;
+bude to okolo
+$evalreply;
+asi tak
+$evalreply;
+odhadom
+$evalreply;
+plus minus nejake drobne
+$fail;
+netusim
+$fail;
+neviem
+$fail;
+nedokazem to vypocitat
