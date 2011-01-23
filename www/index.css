@@ -51,3 +51,19 @@ input[type="submit"] {
   width: 15%;
   margin: auto;
 }
+
+div.question:before {
+  content: 'ty: ';
+  font-weight: bold; 
+}
+
+div.question {
+}
+
+div.answer:before {
+  content: 'ghost: ';
+  font-weight: bold; 
+}
+
+div.answer {
+}
