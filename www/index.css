@@ -1,0 +1,17 @@
+body {
+  max-width: 60em;
+  margin: auto;
+  padding-top: 1em;
+  border: 1px solid gray;
+}
+
+h1 {
+  background: url('icon64.png') no-repeat;
+  text-align: center;
+  min-height: 64px;
+}
+
+input {
+  width: 99%;
+  margin: auto;
+}
