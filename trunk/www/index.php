@@ -18,9 +18,17 @@
       </a>
     </div>
   
-	  <input id="question" autofocus />
-	  <input type="submit" />
+    <form action="index.php" method="get">
+      <input name="question" autofocus />
+      <input type="submit" />
+    </form>  
     
+    <?php
+    $question = htmlspecialchars($_REQUEST['question']);
+    $answer = "neviem";
+    echo "<div class=\"answer\">$answer</div>";    
+    echo "<div class=\"question\">$question<div>";    
+    ?>  
 	
 	</body>
 </html>
