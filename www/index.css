@@ -2,13 +2,31 @@ body {
   max-width: 60em;
   margin: auto;
   padding-top: 1em;
-  border: 1px solid gray;
+  border: 0px solid gray;
 }
 
-h1 {
+#logo {
+  font-family: sans-serif;
+  max-width: 200px;
+  min-height: 74px;
+  margin-left: auto;
+  margin-right: auto;
   background: url('icon64.png') no-repeat;
-  text-align: center;
-  min-height: 64px;
+}
+
+#logo h1 {
+  margin: 0px;
+  padding: 0px;
+  font-size: 36px;
+  text-align: right;
+}
+
+#logo h2 {
+  margin: 0px;
+  padding: 0px;
+  text-align: right;
+  font-size: 9px;
+  color: gray;
 }
 
 input {
