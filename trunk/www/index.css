@@ -29,7 +29,25 @@ body {
   color: gray;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
 input {
-  width: 99%;
+  width: 80%;
+  margin: auto;
+}
+
+input[type="submit"] {
+  width: 15%;
   margin: auto;
 }
