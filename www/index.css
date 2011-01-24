@@ -1,4 +1,5 @@
 body {
+  font-family: sans-serif;
   max-width: 60em;
   margin: auto;
   padding-top: 1em;
@@ -6,7 +7,7 @@ body {
 }
 
 #logo {
-  font-family: sans-serif;
+  display: none;
   max-width: 200px;
   min-height: 74px;
   margin-left: auto;
@@ -52,18 +53,28 @@ input[type="submit"] {
   margin: auto;
 }
 
+/*
 div.question:before {
   content: 'ty: ';
   font-weight: bold; 
 }
+*/
 
 div.question {
+  padding-left: 20px;
+  background: url('user.png') no-repeat 0px 4px;
+  padding-bottom: 1ex;
 }
 
+/*
 div.answer:before {
   content: 'ghost: ';
   font-weight: bold; 
 }
+*/
 
 div.answer {
+  font-weight: bold;
+  padding-left: 20px;
+  background: url('icon.png') no-repeat 0px 4px;
 }

@@ -18,17 +18,32 @@
       </a>
     </div>
   
-    <form action="index.php" method="get">
+    <form action="chat.php" method="get">
       <input name="question" autofocus />
       <input type="submit" />
     </form>  
     
     <?php
-    $question = htmlspecialchars($_REQUEST['question']);
-    $answer = "neviem";
-    echo "<div class=\"answer\">$answer</div>";    
-    echo "<div class=\"question\">$question<div>";    
+      //  no question, so only show chats
+      $chat = explode("\n",file_get_contents('chat.txt'));
+      for ($i=0; ($i<2*20)&&($i<count($chat)-1); $i++)
+        echo $chat[$i]."\n";
+
+      /*
+      TODO:
+      - dialect
+      - attribute (veci ako meno, vek, miesto, ...) 
+      - sam
+      - variation
+      - topic
+    
+      Later:
+      - add full locale support (e.g. localized questions to drknow.php)
+      - anglicke what's teraz sentence rozdeli zle na "what s", tak isto I'm, I'll, don't
+      - for performance reasons, I should append new answers to the end of file or something
+      - rss s nezodpovedanymi otazkami + pre admina webstranku na pridavanie odpovedi
+      */
     ?>  
-	
+
 	</body>
 </html>
