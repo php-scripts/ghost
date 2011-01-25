@@ -1,5 +1,5 @@
 <?php
-  // basic rss feed
+  // basic rss feed of recent chats
   require_once "purin2/rss/rss.php";
   puRssBegin("Recent ghost chat","Last 20 chats from ghost main page","dusan.halicky@gmail.com","http://ayass.xf.cz/ghost/rss.php");
   $file = file_get_contents('chat.txt');
