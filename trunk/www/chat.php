@@ -19,12 +19,20 @@
 
     // split question to words
     $sentence = ghostSentence($question);
-    //print_r($sentence);
+    
+    if ($_REQUEST['redirect']=='false') {
+      print_r($sentence);
+      echo "<br/>\n";
+    }
 
     // quess language
     $language = 'en';
     if (strpos(' '.$_SERVER['HTTP_ACCEPT_LANGUAGE'],'sk') > 0) 
       $language = 'sk';
+    
+    // language override via cookie or param
+    if ( ($_COOKIE['lang'] == 'en')||($_REQUEST['lang'] == 'en') ) $language = 'en';
+    if ( ($_COOKIE['lang'] == 'sk')||($_REQUEST['lang'] == 'sk') ) $language = 'sk';
     
     // ask various AI one by one
 

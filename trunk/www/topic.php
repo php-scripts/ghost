@@ -44,7 +44,9 @@
               break;
             case '$': 
               // question ends with s
-              if (strpos(' '.$question,$s) == strlen($question) - strlen($s)) {
+              $p = strpos(' '.$question,$s);
+              //echo "zzz=".strpos(' '.$question,$s)."<br/>\n";
+              if ( ($p!='')&&(strpos(' '.$question,$s) == strlen($question) - strlen($s)) ) {
                 $cache = array_merge($cache,$re);
                 //echo "match: '$c$s' in '$question'\n";
               }
