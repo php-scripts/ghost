@@ -10,7 +10,7 @@
 	</head>
 	<script src="index.js"></script>
   
-	<body>
+	<body onload="document.getElementById('input1').focus()">
 
     <div id="logo">
       <a href="http://code.google.com/p/ghost/">
@@ -33,7 +33,7 @@
         echo '<input type="radio" id="lang_sk" name="lang" value="sk" '.$sk1.'/><label for="lang_sk">slovensky</label>';
       ?>
       <br/>
-      <input type="text" name="question" autofocus />
+      <input id="input1" type="text" name="question" autofocus />
       <input type="submit" />
     </form>  
     
