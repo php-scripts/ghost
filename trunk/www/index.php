@@ -47,8 +47,8 @@
       - 1 + 1 neprejde cez spliter
       - nevie kolko je hodin lebo to robil eval ktory este nie je spraveny
       - rss
-        - s nezodpovedanymi otazkami + pre admina webstranku na pridavanie odpovedi (do sama alebo ako topic)
-        - chatu na uvodnej stranke
+        - pending improvements
+          
       - na pravo od odpovede [improve] kde bude okno kde budem moct vylepsit odpoved :D
       - for performance reasons, I should append new answers to the end of file or something (or maybe just use mysql like other sane people)
       */
