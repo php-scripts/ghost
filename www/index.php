@@ -4,7 +4,8 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="icon" href="icon.png" />
     <link rel="alternate" type="application/rss+xml" href="rss.php" title="Ghost recent chats" />
-    <link rel="alternate" type="application/rss+xml" href="rss-pending.php" title="Pending corrections" />
+    <link rel="alternate" type="application/rss+xml" href="rss-improve.php?lang=sk" title="Recent slovak improvements" />
+    <link rel="alternate" type="application/rss+xml" href="rss-improve.php?lang=en" title="Recent english improvements" />
     <link rel="stylesheet" type="text/css" href="index.css" />
 	</head>
 	<script src="index.js"></script>
