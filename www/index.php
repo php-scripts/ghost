@@ -31,8 +31,6 @@
 
       /*
       TODO:
-      - v topic som zabudol # nahradit zvyskom vety
-      - attribute (veci ako meno, vek, miesto, ...) + nahradzovanie vo vystupnej vete
     
       Later:
       - add full locale support (e.g. localized questions to drknow.php) ???

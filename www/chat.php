@@ -1,6 +1,6 @@
 <?php
   // parse and answer question
-  $question = htmlspecialchars($_REQUEST['question']);
+  $question = htmlspecialchars(strip_tags($_REQUEST['question']));
   $answer = '';
 
   if ($_REQUEST['redirect']!='false')
@@ -19,8 +19,7 @@
 
     // split question to words
     $sentence = ghostSentence($question);
-    
-    print_r($sentence);
+    //print_r($sentence);
 
     // quess language
     $language = 'en';
@@ -41,8 +40,19 @@
     // dumb is last resort
     if (empty($answer)) $answer = ghostDumbAsk($sentence,$language);
 
+    // parse answer for attributes
+    if (strpos(' '.$answer,'$') > 0) {
+      $attr = explode("\n",file_get_contents("data/$language/attribute.dat"));
+      print_r($attr);
+      for ($a=0; $a<count($attr) / 2; $a++)
+        $answer = str_replace($attr[2*$i],$attr[2*$i+1],$answer);
+    }
+
     // lets lurker also log answer (so we see in lurker's log what was question and answer)
     ghostLurkerAsk("--> $answer",$language);
+
+    if ($_REQUEST['redirect']=='false')
+      echo "Q: $question<br/>\nA: $answer<br/>\n";
 
     // store answer to the begining of chat file
     $chat = "<div class=\"answer\">$answer</div>\n<div class=\"question\">$question</div>\n";
