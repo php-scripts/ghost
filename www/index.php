@@ -31,17 +31,16 @@
 
       /*
       TODO:
-      - dialect
-      - attribute (veci ako meno, vek, miesto, ...) 
-      - sam
-      - variation
-      - topic
+      - v topic som zabudol # nahradit zvyskom vety
+      - attribute (veci ako meno, vek, miesto, ...) + nahradzovanie vo vystupnej vete
     
       Later:
-      - add full locale support (e.g. localized questions to drknow.php)
+      - add full locale support (e.g. localized questions to drknow.php) ???
       - anglicke what's teraz sentence rozdeli zle na "what s", tak isto I'm, I'll, don't
-      - for performance reasons, I should append new answers to the end of file or something
-      - rss s nezodpovedanymi otazkami + pre admina webstranku na pridavanie odpovedi
+      - for performance reasons, I should append new answers to the end of file or something (or maybe just use mysql)
+      - rss
+        - s nezodpovedanymi otazkami + pre admina webstranku na pridavanie odpovedi (do sama alebo ako topic)
+        - chatu na uvodnej stranke
       */
     ?>  
 

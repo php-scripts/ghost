@@ -48,7 +48,13 @@
     }
 
     // split sentence to words
-    $sentence = split("[ ,\"'.;:(){}/\\`~!@#$%^&*_+-=|<>?]+", $AQuestion); // FIXME: add [ and ]
+    // FIXME: add [ and ]
+    // FIXME: for some reason = removes numbers     
+    $sentence = split("[ <>|?=,\"'.;:(){}/\\`~!@#$%^&*_+-]+", $AQuestion);
+    if ($sentence[0]=='')
+      $sentence = array_splice($sentence,1,count($sentence));
+    if ( (count($sentence) > 0) && ($sentence[count($sentence)-1]=='') )
+      $sentence = array_splice($sentence,0,count($sentence)-1);
     
     return $sentence;
   }

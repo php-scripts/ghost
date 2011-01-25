@@ -3,6 +3,9 @@
   $question = htmlspecialchars($_REQUEST['question']);
   $answer = '';
 
+  if ($_REQUEST['redirect']!='false')
+    header('Content-Type: text/plain; charset=utf-8');
+
   if ( $question != '' ) {
 
     // include parts
@@ -11,9 +14,13 @@
     require_once "lurker.php";
     require_once "sentence.php";
     require_once "sam.php";
+    require_once "variation.php";
+    require_once "topic.php";
 
     // split question to words
     $sentence = ghostSentence($question);
+    
+    print_r($sentence);
 
     // quess language
     $language = 'en';
@@ -28,9 +35,14 @@
     // real AIs
     if (empty($answer)) $answer = ghostDrknowAsk($sentence,$language);
     if (empty($answer)) $answer = ghostSamAsk($sentence,$language,'sam');
+    if (empty($answer)) $answer = ghostVariationAsk($sentence,$language);
+    if (empty($answer)) $answer = ghostTopicAsk($sentence,$language);
 
     // dumb is last resort
     if (empty($answer)) $answer = ghostDumbAsk($sentence,$language);
+
+    // lets lurker also log answer (so we see in lurker's log what was question and answer)
+    ghostLurkerAsk("--> $answer",$language);
 
     // store answer to the begining of chat file
     $chat = "<div class=\"answer\">$answer</div>\n<div class=\"question\">$question</div>\n";
@@ -39,5 +51,6 @@
   }
   
   // redirect back to index page
-  header('Location: index.php');
+  if ($_REQUEST['redirect']!='false')
+    header('Location: index.php');
 ?>
