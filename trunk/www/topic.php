@@ -27,7 +27,7 @@
           if ($c=='[')
             continue;
           $s = substr($lines[$t],1,999);
-          echo "c:=$c s:=$s\n<br/>";
+          //echo "c:=$c s:=$s\n<br/>";
           switch ($c) {
             case '^': 
               // question starts with s
@@ -51,12 +51,12 @@
               break;
             case '*': 
               // je aktualny riadok v otazke?
-              echo "matching '*' for '$s' in '$question'\n";
+              //echo "matching '*' for '$s' in '$question'\n";
               if (strpos(' '.$question,$s) > 0) {
                 for ($r=0; $r<count($re); $r++)
                   $re[$r] = str_replace('#',$s,$re[$r]);
                 $cache = array_merge($cache,$re);
-                echo "--> FOUND !!!\n";
+                //echo "--> FOUND !!!\n";
               }
               break;
             default:
