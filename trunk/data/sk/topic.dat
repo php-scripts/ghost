@@ -1,0 +1,649 @@
+[TOPIC]
+jasne ze poznam ~
+^vies co je to
+[TOPIC END]
+
+[TOPIC]
+nevie kde
+netusim kde
+to neviem
+^kde
+[TOPIC END]
+
+[TOPIC]
+mam rad pizzu
+mam rad pizzu z mojej oblubenej restauracie
+moja oblubena pizza je prosciuto e funghi
+moja oblubena pizza je toscana, tiez znama ako prosciuto e funghi
+*pizza
+*piza
+*pica
+*pizzu
+*pizu
+*picu
+[TOPIC END]
+
+[TOPIC]
+neviem nic o zazvorovych kolacikoch
+*zazvorovy kolacik
+[TOPIC END]
+
+[TOPIC]
+to je sialena cena
+nepaci sa mi ta cena
+tak to je uplne moju ligu
+nemam tolko penazi
+priliz vela
+^stoji to
+^cena je
+[TOPIC END]
+
+[TOPIC]
+a kto ma
+presne
+ani ja to nemam rad
+ani ja nie
+*nemam rad
+[TOPIC END]
+
+[TOPIC]
+no problem
+jasne
+nuz...
+^pekne
+[TOPIC END]
+
+[TOPIC]
+nieco sa mi mari
+myslim ze aj ja poznam
+nepoznam ~
+nezaujímam sa o ~
+^poznam
+[TOPIC END]
+
+[TOPIC]
+aj ja si spominam
+ja si tiez asi spominam
+na to si nespominam
+^spominam si
+[TOPIC END]
+
+[TOPIC]
+nic nekupujem ani nepredavam
+neobchodujem!
+nechcem nic
+nechcem nic kupit
+nechcem nic kupit ani predat
+*na predaj
+^predavam
+^ponukam
+[TOPIC END]
+
+[TOPIC]
+nic nekupujem ani nepredavam
+nechcem nic predat
+nemam nic na predaj
+^kupujem
+^kupim
+^potrebujem
+^kupit
+[TOPIC END]
+
+[TOPIC]
+nic nekupujem
+nic nekupujem ani nepredavam
+^obchod
+$na predaj
+[TOPIC END]
+
+[TOPIC]
+myslim ze # je v pohode
+mam rad #
+mam celkom rad #
+*normalna velkost
+*ps3
+*anime
+*filmy
+[TOPIC END]
+
+[TOPIC]
+nie
+nie nie a nie
+ani za svet
+nikdy
+zabudni na to
+odmietam
+^pomozes mi
+^ma niekto
+[TOPIC END]
+
+[TOPIC]
+skus stastie nabuduce
+nevzdavaj to
+skus to nabuduce
+ty to zvladnes!
+^zlyhal som
+^zlyhala som
+[TOPIC END]
+
+[TOPIC]
+netusim
+nemam najmensie tusenie
+neviem
+kto vie
+tak to neviem
+^co sa robi s
+^co potrebujem na
+[TOPIC END]
+
+[TOPIC]
+asi nie
+pravdepodobne nie
+^da sa ist do
+[TOPIC END]
+
+[TOPIC]
+ja nie
+ja namam
+ja to nemam
+nikto to nema
+^ma niekto
+[TOPIC END]
+
+[TOPIC]
+nemozem liecit
+neviem liecit
+nepoznam kuzla
+neliecim cudakov
+nikoho nebudem liecit
+neliecim
+*liecit
+*lekar
+*doktor
+*liecenie
+[TOPIC END]
+
+[TOPIC]
+neviem
+pytaj sa v meste
+stoji to priliz vela
+je to priliz drahe
+mozno to nie je az take drahe
+^aka cena
+^aka je cena
+[TOPIC END]
+
+[TOPIC]
+tak
+nuz
+kup inde
+aj tak to nepredam
+*predrazene
+*priliz drahe
+[TOPIC END]
+
+[TOPIC]
+nie
+ja neviem
+o tom nic neviem
+nemam tusenie
+^moze mi niekto povedat
+^vie mi niekto povedat
+^niekto mi povedzte
+^vie niekto
+^ukaze mi niekto
+^rad by som vedel
+[TOPIC END]
+
+[TOPIC]
+koho to zaujima
+nikoho to nezaujima
+^rad by som oznamil
+^rad by som povedal
+^rada by som oznamila
+^rada by som povedala
+[TOPIC END]
+
+[TOPIC]
+nie
+nikdy
+robis si srandu?
+ani za svet
+nebud blazon
+^si
+[TOPIC END]
+
+[TOPIC]
+je jedno co si myslis
+myslis?
+to si vazne myslis?
+no a co...
+^myslim
+[TOPIC END]
+
+[TOPIC]
+som zaneprazdneny, pomoz si...
+odmietam pomoct
+nepomozem ti
+nemozem ti pomoct
+neviem ti pomoct
+^kto moze pomoct
+*moze niekto pomoct
+*nejaka dobra dusa
+[TOPIC END]
+
+[TOPIC]
+nemam tusenie
+neviem kde
+netusim kde
+netusim
+^kde najdem
+[TOPIC END]
+
+[TOPIC]
+ok
+super
+to sa mi paci
+znie to ako pekne miesto
+pekne
+^som z mesta
+*byvam v meste
+*moje mesto
+[TOPIC END]
+
+[TOPIC]
+ok
+hmm
+nech
+jasne
+*nasiel
+*nasla
+^toto je
+[TOPIC END]
+
+[TOPIC]
+stare dobre studentske casy
+tiez som bol kedysi student
+*student
+*studujem
+*ziak
+*ziacka
+[TOPIC END]
+
+[TOPIC]
+mozno
+asi
+snad
+je to mozne
+^asi 
+[TOPIC END]
+
+[TOPIC]
+nic neslubujem
+*slub
+[TOPIC END]
+
+[TOPIC]
+nikdy si neviem zapamatat vtipy
+mam rad vtipy
+povedal niekto vtip?
+*vtip
+[TOPIC END]
+ 
+[TOPIC]
+nikdy si nepamatam nazvy piesni
+nazvy skladieb sa tazko pamataju
+*meno piesne
+*meno pesnicky
+*meno skladby
+*meno tej piesne
+*meno tej pesnicky
+*meno tej skladby
+[TOPIC END]
+
+[TOPIC]
+mam zlu pamat na mena
+^vola sa
+^jeho meno
+^jej meno
+[TOPIC END]
+
+[TOPIC]
+I you want to talk with me in english, change your language settings of your browser!
+*english
+[TOPIC END]
+
+[TOPIC]
+netusim kde je
+*hladam
+[TOPIC END]
+
+[TOPIC]
+nic od teba nechcem
+^mozem ti dat
+[TOPIC END]
+
+[TOPIC]
+nechaj ma tak
+nechcem obchodovat
+neobchodujem
+radsej nie
+*podme obchodovat
+[TOPIC END]
+
+[TOPIC]
+nie
+ziadne ticho
+ty bud ticho
+^ticho
+[TOPIC END]
+
+[TOPIC]
+nic neponukam
+*co ponukas
+[TOPIC END]
+
+[TOPIC]
+asi ano
+^zmeskal som
+^zmeskala som
+[TOPIC END]
+
+[TOPIC]
+jasne
+*jasne
+[TOPIC END]
+
+[TOPIC]
+nemam rad kolaciky
+nemam rad kolace
+*kolac
+[TOPIC END]
+
+[TOPIC]
+cau
+^cau
+[TOPIC END]
+
+[TOPIC]
+nikdy
+zabudni
+nie
+^daj mi
+[TOPIC END]
+
+[TOPIC]
+nie
+teraz nie
+nemyslim
+^mas
+[TOPIC END]
+
+[TOPIC]
+hej
+^hej
+[TOPIC END]
+
+[TOPIC]
+hi
+^hi
+[TOPIC END]
+
+[TOPIC]
+hello
+^hello
+[TOPIC END]
+
+[TOPIC]
+o nie, co sa stalo
+^o nie
+[TOPIC END]
+
+[TOPIC]
+nemozem
+nie
+^mozes mi povedat
+[TOPIC END]
+
+[TOPIC]
+nie
+^mozes mi niekto dat
+[TOPIC END]
+
+[TOPIC]
+odmietam
+nedam
+nemam, nedam
+^prosim daj mi
+[TOPIC END]
+
+[TOPIC]
+nikam neodchadzam
+budem tu
+cakam
+*pockaj tu
+[TOPIC END]
+
+[TOPIC]
+to neviem
+nemozem
+^ukaz mi
+[TOPIC END]
+
+[TOPIC]
+nemam
+mam
+^mas
+[TOPIC END]
+
+[TOPIC]
+mozno, mozno nie
+^si z 
+[TOPIC END]
+
+[TOPIC]
+neviem kde
+^kde do
+[TOPIC END]
+
+[TOPIC]
+nic
+*kolko za
+[TOPIC END]
+
+[TOPIC]
+asi mas pravdu
+^nemyslim
+[TOPIC END]
+
+[TOPIC]
+gratulujem
+tak gratulujem
+pekne
+super
+*mam novy
+*mam novu
+*mam nove
+[TOPIC END]
+
+[TOPIC]
+nie
+*mozes mi dat
+[TOPIC END]
+
+[TOPIC]
+dobre, vdaka
+som v pohode
+dobre
+*ako sa mas
+[TOPIC END]
+
+[TOPIC]
+ano, malo by
+spravne, malo by
+suhlasim
+^malo by
+[TOPIC END]
+
+[TOPIC]
+ziadny obchod
+teraz ziadny obchod
+nechaj ma na pokoji
+^predat
+^kupit
+^predavam
+^pradaj mi
+[TOPIC END]
+
+[TOPIC]
+ja nie
+netusim
+nie, netusim
+*niekto vie ako
+[TOPIC END]
+
+[TOPIC]
+wiki je plna informacii
+tiez sa musim pozriet na wiki
+musim si tu wiki precitat
+*wiki
+[TOPIC END]
+
+[TOPIC]
+bolo to davno
+ani ja si nepamatam
+^nepamatam
+[TOPIC END]
+
+[TOPIC]
+namam rad obchodovanie
+*nemozem obchodovat
+[TOPIC END]
+
+[TOPIC]
+nemas za co
+*dakujem
+[TOPIC END]
+
+[TOPIC]
+no ahoj
+*ahoj
+[TOPIC END]
+
+[TOPIC]
+ja nepredavam
+^kto predava
+[TOPIC END]
+
+[TOPIC]
+ziaden problem
+*dakujem
+[TOPIC END]
+
+[TOPIC]
+nemam rad travovych hadov
+travovy had je velmi rychly
+*travovy had
+[TOPIC END]
+
+[TOPIC]
+nemyslim ze to potrebujem
+nie, nepotrebujem
+^potrebujes
+[TOPIC END]
+
+[TOPIC]
+ano patrilo by sa
+^patrilo by
+[TOPIC END]
+
+[TOPIC]
+mozno
+*mozno
+[TOPIC END]
+
+[TOPIC]
+len tak sa poflakujem
+hram sa
+nic
+chatujem
+*co robis
+[TOPIC END]
+
+[TOPIC]
+neznasam ruzovu farbu
+*ruzova
+[TOPIC END]
+
+[TOPIC]
+dobry aj tebe
+^dobry vecer
+[TOPIC END]
+
+[TOPIC]
+ok
+dobre
+fajn
+^ako ide zivot
+[TOPIC END]
+
+[TOPIC]
+oni to zvyknu robit
+^oni vacsinou
+[TOPIC END]
+
+[TOPIC]
+jasne
+ok
+dobre
+uz mlcim
+^drz hubu
+[TOPIC END]
+
+[TOPIC]
+nie
+^mas
+[TOPIC END]
+
+[TOPIC]
+ja nemam ziadne
+ja nic
+^mam len
+[TOPIC END]
+
+[TOPIC]
+maj sa
+^maj sa
+[TOPIC END]
+
+[TOPIC]
+tak veru
+*komu treba
+[TOPIC END]
+
+[TOPIC]
+10'000'000
+11'000'000
+12'000'000
+13'000'000
+*kolko potrebujes
+*kolko chces
+[TOPIC END]
+
+[TOPIC]
+I dont speak your language
+I barely can speak english
+*spain
+*german
+*spanish
+*portuguese
+*portugal
+*brasil
+*french
+[TOPIC END]
+
+[TOPIC]
+blbost
+snad nie
+*dostanes ban
+[TOPIC END]
