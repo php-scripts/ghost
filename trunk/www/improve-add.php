@@ -15,7 +15,7 @@
   }   
 
   // append question to log
-  $f = fopen("data/$ALanguage/improve.dat", "a") or die("improve: can't open file");
+  $f = fopen("data/$language/improve.dat", "a") or die("improve: can't open $language file");
   fwrite($f, $question."\n");
   fwrite($f, $improved."\n");
   fclose($f);  

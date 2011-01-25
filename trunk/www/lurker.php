@@ -3,7 +3,7 @@
 
   function ghostLurkerAsk($AQuestion,$ALanguage) {
     // append question to log
-    $f = fopen("data/$ALanguage/lurker.dat", "a") or die("lurker: can't open file");
+    $f = fopen("data/$ALanguage/lurker.dat", "a") or die("lurker: can't open $ALanguage file");
     fwrite($f, $AQuestion."\n");
     fclose($f);  
     return '';  

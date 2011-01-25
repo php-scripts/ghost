@@ -43,6 +43,9 @@
     // first is just a logger
     if (empty($answer)) $answer = ghostLurkerAsk($question,$language);
 
+    // AI improved by users
+    if (empty($answer)) $answer = ghostSamAsk($sentence,$language,'improve');
+
     // real AIs
     if (empty($answer)) $answer = ghostDrknowAsk($sentence,$language);
     if (empty($answer)) $answer = ghostSamAsk($sentence,$language,'sam');

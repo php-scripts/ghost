@@ -1,3 +1,11 @@
+<div class="question">toto sa blizi dokonalosti</div>
+<div class="answer">ano, uz je to skoro dokonale<a class="improve" title="Click to improve answer" href="improve.php?question=toto sa blizi dokonalosti&answer=ano, uz je to skoro dokonale">&#9997;</a></div>
+<div class="question">toto sa blizi dokonalosti</div>
+<div class="answer">strasne trepes<a class="improve" title="Click to improve answer" href="improve.php?question=toto sa blizi dokonalosti&answer=strasne trepes">&#9997;</a></div>
+<div class="question">to je super</div>
+<div class="answer">ja viem<a class="improve" title="Click to improve answer" href="improve.php?question=to je super&answer=ja viem">&#9997;</a></div>
+<div class="question">dobry den</div>
+<div class="answer">dobry den aj tebe<a class="improve" title="Click to improve answer" href="improve.php?question=dobry den&answer=dobry den aj tebe">&#9997;</a></div>
 <div class="question">dobry den</div>
 <div class="answer">hmmm<a class="improve" title="Click to improve answer" href="improve.php?question=dobry den&answer=hmmm">&#9997;</a></div>
 <div class="question">dobry den</div>
@@ -10,11 +18,3 @@
 <div class="answer">netrep sprostosti<a class="improve" title="Click to improve answer" href="improve.php?question=dobry den&answer=netrep sprostosti">&#9997;</a></div>
 <div class="question">dobry den</div>
 <div class="answer">dobre<a class="improve" href="improve.php?question=dobry den&answer=dobre">&#9997;</a></div>
-<div class="question">aaaaaaaaa</div>
-<div class="answer">vies co, zacinas ma trochu nudit...</div>
-<div class="question">jaku temu</div>
-<div class="answer">netrep sprostosti</div>
-<div class="question">o com pokecame?</div>
-<div class="answer">o nicom a o vsetkom, navrhni nejaku temu</div>
-<div class="question">nie</div>
-<div class="answer">co nie</div>
