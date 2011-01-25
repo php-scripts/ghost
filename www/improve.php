@@ -11,6 +11,13 @@
   
 	<body>
   
+    <div id="logo">
+      <a href="http://code.google.com/p/ghost/">
+        <h1>ghost</h1>
+        <h2>a tiny chat bot</h2>
+      </a>
+    </div>
+  
     <form action="improve-add.php" method="get">
       <?php
         $lang = $_REQUEST['lang'];

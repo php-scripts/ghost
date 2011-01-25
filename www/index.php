@@ -44,12 +44,11 @@
 
       /*
       TODO:
+      - overit ci ? alebo & v odpovedi alebo v improved nieco nerozbije, napr. ten improved lebo pouziva get parametre
       - 1 + 1 neprejde cez spliter
       - nevie kolko je hodin lebo to robil eval ktory este nie je spraveny
       - rss
-        - pending improvements
-          
-      - na pravo od odpovede [improve] kde bude okno kde budem moct vylepsit odpoved :D
+        - pending improvements (v podstate 1 item data/en|sk/improve.dat)
       - for performance reasons, I should append new answers to the end of file or something (or maybe just use mysql like other sane people)
       */
     ?>  
