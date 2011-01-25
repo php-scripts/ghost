@@ -3,8 +3,8 @@
 		<title>Ghost</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="icon" href="icon.png" />
-    <link rel="alternate" type="application/rss+xml" href="rss-news.php" title="Ghost news" />
-    <link rel="alternate" type="application/rss+xml" href="rss-chat.php" title="Ghost recent chats" />
+    <link rel="alternate" type="application/rss+xml" href="rss.php" title="Ghost recent chats" />
+    <link rel="alternate" type="application/rss+xml" href="rss-pending.php" title="Pending corrections" />
     <link rel="stylesheet" type="text/css" href="index.css" />
 	</head>
 	<script src="index.js"></script>
@@ -19,7 +19,20 @@
     </div>
   
     <form action="chat.php" method="get">
-      <input name="question" autofocus />
+      <?php
+        $lang = $_REQUEST['lang'];
+        if ($lang == 'en') {
+          $en1 = ' checked';
+          $sk1 = ' ';
+        } else {
+          $en1 = ' ';
+          $sk1 = ' checked';
+        };
+        echo '<input type="radio" id="lang_en" name="lang" value="en" '.$en1.'/><label for="lang_en">english</label>';
+        echo '<input type="radio" id="lang_sk" name="lang" value="sk" '.$sk1.'/><label for="lang_sk">slovensky</label>';
+      ?>
+      <br/>
+      <input type="text" name="question" autofocus />
       <input type="submit" />
     </form>  
     
@@ -31,13 +44,13 @@
 
       /*
       TODO:
-    
-      Later:
-      - anglicke what's teraz sentence rozdeli zle na "what s", tak isto I'm, I'll, don't
-      - for performance reasons, I should append new answers to the end of file or something (or maybe just use mysql)
+      - 1 + 1 neprejde cez spliter
+      - nevie kolko je hodin lebo to robil eval ktory este nie je spraveny
       - rss
         - s nezodpovedanymi otazkami + pre admina webstranku na pridavanie odpovedi (do sama alebo ako topic)
         - chatu na uvodnej stranke
+      - na pravo od odpovede [improve] kde bude okno kde budem moct vylepsit odpoved :D
+      - for performance reasons, I should append new answers to the end of file or something (or maybe just use mysql like other sane people)
       */
     ?>  
 
