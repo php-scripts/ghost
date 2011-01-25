@@ -28,8 +28,8 @@
           $en1 = ' ';
           $sk1 = ' checked';
         };
-        //echo '<input type="radio" id="lang_en" name="lang" value="en" '.$en1.'/><label for="lang_en">english</label>';
-        //echo '<input type="radio" id="lang_sk" name="lang" value="sk" '.$sk1.'/><label for="lang_sk">slovensky</label>';
+        echo '<input type="radio" id="lang_en" name="lang" value="en" '.$en1.'/><label for="lang_en">english</label>';
+        echo '<input type="radio" id="lang_sk" name="lang" value="sk" '.$sk1.'/><label for="lang_sk">slovensky</label>';
         $question = str_replace("\n"," ",htmlspecialchars(strip_tags($_REQUEST['question'])));
         $answer = str_replace("\n"," ",htmlspecialchars(strip_tags($_REQUEST['answer'])));
       ?>

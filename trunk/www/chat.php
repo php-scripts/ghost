@@ -71,7 +71,7 @@
 
     // store answer to the begining of chat file
     $chat .= "<div class=\"question\">$question</div>\n";
-    $chat .= "<div class=\"answer\">$answer<a class=\"improve\" title=\"Click to improve answer\" href=\"improve.php?question=$question&answer=$answer\">&#9997;</a></div>\n";
+    $chat .= "<div class=\"answer\">$answer<a class=\"improve\" title=\"Click to improve answer\" href=\"improve.php?lang=$language&question=$question&answer=$answer\">&#9997;</a></div>\n";
     $chat .= file_get_contents('chat.txt');
     // keep only first 20 lines
     $lines = explode("\n",$chat);
