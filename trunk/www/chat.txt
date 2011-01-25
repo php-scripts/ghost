@@ -1,20 +1,39 @@
-<div class="question">toto sa blizi dokonalosti</div>
-<div class="answer">ano, uz je to skoro dokonale<a class="improve" title="Click to improve answer" href="improve.php?question=toto sa blizi dokonalosti&answer=ano, uz je to skoro dokonale">&#9997;</a></div>
-<div class="question">toto sa blizi dokonalosti</div>
-<div class="answer">strasne trepes<a class="improve" title="Click to improve answer" href="improve.php?question=toto sa blizi dokonalosti&answer=strasne trepes">&#9997;</a></div>
-<div class="question">to je super</div>
-<div class="answer">ja viem<a class="improve" title="Click to improve answer" href="improve.php?question=to je super&answer=ja viem">&#9997;</a></div>
-<div class="question">dobry den</div>
-<div class="answer">dobry den aj tebe<a class="improve" title="Click to improve answer" href="improve.php?question=dobry den&answer=dobry den aj tebe">&#9997;</a></div>
-<div class="question">dobry den</div>
-<div class="answer">hmmm<a class="improve" title="Click to improve answer" href="improve.php?question=dobry den&answer=hmmm">&#9997;</a></div>
-<div class="question">dobry den</div>
-<div class="answer">obavam sa ze temy nazho rozhovoru sa vycerpali, koncim<a class="improve" title="Click to improve answer" href="improve.php?question=dobry den&answer=obavam sa ze temy nazho rozhovoru sa vycerpali, koncim">&#9997;</a></div>
-<div class="question">dobry den</div>
-<div class="answer">zaujimave<a class="improve" title="Click to improve answer" href="improve.php?question=dobry den&answer=zaujimave">&#10008;</a></div>
-<div class="question">dobry den</div>
-<div class="answer">obavam sa ze temy nazho rozhovoru sa vycerpali, koncim<a class="improve" title="Click to improve answer" href="improve.php?question=dobry den&answer=obavam sa ze temy nazho rozhovoru sa vycerpali, koncim">&#9998;</a></div>
-<div class="question">dobry den</div>
-<div class="answer">netrep sprostosti<a class="improve" title="Click to improve answer" href="improve.php?question=dobry den&answer=netrep sprostosti">&#9997;</a></div>
-<div class="question">dobry den</div>
-<div class="answer">dobre<a class="improve" href="improve.php?question=dobry den&answer=dobre">&#9997;</a></div>
+<div class="question">neviem co by som k tomu dodal</div>
+<div class="answer">vies co, zacinas ma trochu nudit...<a class="improve" title="Click to improve answer" href="improve.php?question=neviem co by som k tomu dodal&answer=vies co, zacinas ma trochu nudit...">&#9997;</a></div>
+<div class="question">alebo</div>
+<div class="answer">alebo aj tak :D<a class="improve" title="Click to improve answer" href="improve.php?question=alebo&answer=alebo aj tak :D">&#9997;</a></div>
+<div class="question">alebo</div>
+<div class="answer">alebo, alebo ani nie<a class="improve" title="Click to improve answer" href="improve.php?question=alebo&answer=alebo, alebo ani nie">&#9997;</a></div>
+<div class="question">alebo</div>
+<div class="answer">alebo, alebo ani nie<a class="improve" title="Click to improve answer" href="improve.php?question=alebo&answer=alebo, alebo ani nie">&#9997;</a></div>
+<div class="question">alebo</div>
+<div class="answer">alebo aj tak :D<a class="improve" title="Click to improve answer" href="improve.php?question=alebo&answer=alebo aj tak :D">&#9997;</a></div>
+<div class="question">alebo</div>
+<div class="answer">vies co, zacinas ma trochu nudit...<a class="improve" title="Click to improve answer" href="improve.php?question=alebo&answer=vies co, zacinas ma trochu nudit...">&#9997;</a></div>
+<div class="question">alebo</div>
+<div class="answer">...<a class="improve" title="Click to improve answer" href="improve.php?question=alebo&answer=...">&#9997;</a></div>
+<div class="question">uz sa tesim</div>
+<div class="answer">aj ja, ako male decko na vianoce<a class="improve" title="Click to improve answer" href="improve.php?question=uz sa tesim&answer=aj ja, ako male decko na vianoce">&#9997;</a></div>
+<div class="question">uz sa tesim</div>
+<div class="answer">ok, podme radsej na inu temu, o com pokecame<a class="improve" title="Click to improve answer" href="improve.php?question=uz sa tesim&answer=ok, podme radsej na inu temu, o com pokecame">&#9997;</a></div>
+<div class="question">co zaujimave?</div>
+<div class="answer">co ti mam na to povedat...<a class="improve" title="Click to improve answer" href="improve.php?question=co zaujimave?&answer=co ti mam na to povedat...">&#9997;</a></div>
+<div class="question">ale preco by sme to robili?</div>
+<div class="answer">zaujimave<a class="improve" title="Click to improve answer" href="improve.php?question=ale preco by sme to robili?&answer=zaujimave">&#9997;</a></div>
+<div class="question">mozeme aj ist spat</div>
+<div class="answer">jasne ze mozeme<a class="improve" title="Click to improve answer" href="improve.php?question=mozeme aj ist spat&answer=jasne ze mozeme">&#9997;</a></div>
+<div class="question">mozeme pokecat</div>
+<div class="answer">netrep sprostosti<a class="improve" title="Click to improve answer" href="improve.php?question=mozeme pokecat&answer=netrep sprostosti">&#9997;</a></div>
+<div class="question">no tak dobre</div>
+<div class="answer">strasne trepes<a class="improve" title="Click to improve answer" href="improve.php?question=no tak dobre&answer=strasne trepes">&#9997;</a></div>
+<div class="question">asi pojdem spat</div>
+<div class="answer">ale ved este nechod<a class="improve" title="Click to improve answer" href="improve.php?question=asi pojdem spat&answer=ale ved este nechod">&#9997;</a></div>
+<div class="question">asi pojdem spat</div>
+<div class="answer">asi<a class="improve" title="Click to improve answer" href="improve.php?question=asi pojdem spat&answer=asi">&#9997;</a></div>
+<div class="question">tak to je sila</div>
+<div class="answer">tak veru<a class="improve" title="Click to improve answer" href="improve.php?question=tak to je sila&answer=tak veru">&#9997;</a></div>
+<div class="question">tak to je sila</div>
+<div class="answer">dobre<a class="improve" title="Click to improve answer" href="improve.php?question=tak to je sila&answer=dobre">&#9997;</a></div>
+<div class="question">tak to je sila</div>
+<div class="answer">obavam sa ze temy nazho rozhovoru sa vycerpali, koncim<a class="improve" title="Click to improve answer" href="improve.php?question=tak to je sila&answer=obavam sa ze temy nazho rozhovoru sa vycerpali, koncim">&#9997;</a></div>
+<div class="question">vobec nic?</div>

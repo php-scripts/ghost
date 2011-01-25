@@ -647,3 +647,15 @@ blbost
 snad nie
 *dostanes ban
 [TOPIC END]
+
+[TOPIC]
+to veru je
+tak veru
+^tak to je
+[TOPIC END]
+
+[TOPIC]
+jasne ze mozeme
+no jasne
+^mozeme
+[TOPIC END]
