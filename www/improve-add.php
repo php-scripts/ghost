@@ -1,8 +1,13 @@
 <?php
   // add improved Q-A to data file
+  require_once "sentence.php";
   
-  $question = str_replace("\n"," ",htmlspecialchars(strip_tags($_REQUEST['question'])));
-  $improved = str_replace("\n"," ",htmlspecialchars(strip_tags($_REQUEST['improved'])));
+  $question = trim(str_replace("\n"," ",htmlspecialchars(strip_tags($_REQUEST['question']))));
+  $improved = trim(str_replace("\n"," ",htmlspecialchars(strip_tags($_REQUEST['improved']))));
+  
+  // normalize question (otherwise sam will be unable to find it)
+  $sentence = ghostSentence($question);
+  $question = ghostSentencePartString($sentence,0,99);
   
   // language override via cookie or param
   if ( ($_COOKIE['lang'] == 'en')||($_REQUEST['lang'] == 'en')||($_REQUEST['lang_en'] == 'on') ) $language = 'en';
@@ -15,10 +20,12 @@
   }   
 
   // append question to log
-  $f = fopen("data/$language/improve.dat", "a") or die("improve: can't open $language file");
-  fwrite($f, $question."\n");
-  fwrite($f, $improved."\n");
-  fclose($f);  
+  if ( (!empty($question))&&(!empty($improved)) ) {
+    $f = fopen("data/$language/improve.dat", "a") or die("improve: can't open $language file");
+    fwrite($f, $question."\n");
+    fwrite($f, $improved."\n");
+    fclose($f);  
+  }
 
   // done
   header("Location: index.php?lang=$language");

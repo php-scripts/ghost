@@ -39,7 +39,7 @@
     <?php
       //  no question, so only show chats
       $chat = explode("\n",file_get_contents('chat.txt'));
-      for ($i=0; ($i<2*20)&&($i<count($chat)-1); $i++)
+      for ($i=0; ($i<2*20+1)&&($i<count($chat)-1); $i++)
         echo $chat[$i]."\n";
 
       /*

@@ -75,7 +75,7 @@
     $chat .= file_get_contents('chat.txt');
     // keep only first 20 lines
     $lines = explode("\n",$chat);
-    $lines = array_splice($lines,0,20);
+    $lines = array_splice($lines,0,39);
     $chat = implode("\n",$lines);
     // save chat
     file_put_contents('chat.txt',$chat);
