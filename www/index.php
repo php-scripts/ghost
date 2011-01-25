@@ -33,7 +33,6 @@
       TODO:
     
       Later:
-      - add full locale support (e.g. localized questions to drknow.php) ???
       - anglicke what's teraz sentence rozdeli zle na "what s", tak isto I'm, I'll, don't
       - for performance reasons, I should append new answers to the end of file or something (or maybe just use mysql)
       - rss
