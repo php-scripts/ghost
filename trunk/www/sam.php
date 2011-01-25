@@ -7,7 +7,7 @@
 
     // normalize sentence
     $question = ghostSentencePartString($ASentence,0,99);
-    echo "question=$question<br/>";
+    //echo "question=$question<br/>";
 
     // load data file
     $file = file_get_contents("data/$ALanguage/$AFile.dat");
