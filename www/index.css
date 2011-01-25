@@ -7,7 +7,7 @@ body {
 }
 
 #logo {
-  display: none;
+  /* display: none; */
   max-width: 200px;
   min-height: 74px;
   margin-left: auto;
@@ -43,9 +43,13 @@ a:hover {
   color: blue;
 }
 
-input {
+input[type="text"] {
   width: 80%;
   margin: auto;
+}
+
+input[type="radio"] {
+  margin-top: 6px;
 }
 
 input[type="submit"] {
@@ -63,7 +67,6 @@ div.question:before {
 div.question {
   padding-left: 20px;
   background: url('user.png') no-repeat 0px 4px;
-  padding-bottom: 1ex;
 }
 
 /*
@@ -77,4 +80,5 @@ div.answer {
   font-weight: bold;
   padding-left: 20px;
   background: url('icon.png') no-repeat 0px 4px;
+  padding-bottom: 1ex;
 }

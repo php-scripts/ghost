@@ -25,14 +25,18 @@
       echo "<br/>\n";
     }
 
-    // quess language
-    $language = 'en';
-    if (strpos(' '.$_SERVER['HTTP_ACCEPT_LANGUAGE'],'sk') > 0) 
-      $language = 'sk';
-    
     // language override via cookie or param
-    if ( ($_COOKIE['lang'] == 'en')||($_REQUEST['lang'] == 'en') ) $language = 'en';
-    if ( ($_COOKIE['lang'] == 'sk')||($_REQUEST['lang'] == 'sk') ) $language = 'sk';
+    if ( ($_COOKIE['lang'] == 'en')||($_REQUEST['lang'] == 'en')||($_REQUEST['lang_en'] == 'on') ) $language = 'en';
+    if ( ($_COOKIE['lang'] == 'sk')||($_REQUEST['lang'] == 'sk')||($_REQUEST['lang_sk'] == 'on') ) $language = 'sk';
+    //echo "r-lang = ".$_REQUEST['lang']." language=$language<br/>\n";
+
+    // quess language
+    if (empty($language)) {
+      $language = 'en';
+      if (strpos(' '.$_SERVER['HTTP_ACCEPT_LANGUAGE'],'sk') > 0) 
+        $language = 'sk';
+    }   
+    //echo "r-lang = ".$_REQUEST['lang']." language=$language<br/>\n";
     
     // ask various AI one by one
 
@@ -63,12 +67,18 @@
       echo "Q: $question<br/>\nA: $answer<br/>\n";
 
     // store answer to the begining of chat file
-    $chat = "<div class=\"answer\">$answer</div>\n<div class=\"question\">$question</div>\n";
+    $chat .= "<div class=\"question\">$question</div>\n";
+    $chat .= "<div class=\"answer\">$answer</div>\n";
     $chat .= file_get_contents('chat.txt');
+    // keep only first 20 lines
+    $lines = explode("\n",$chat);
+    $lines = array_splice($lines,0,20);
+    $chat = implode("\n",$lines);
+    // save chat
     file_put_contents('chat.txt',$chat);
   }
   
   // redirect back to index page
   if ($_REQUEST['redirect']!='false')
-    header('Location: index.php');
+    header('Location: index.php?lang='.$language);
 ?>
