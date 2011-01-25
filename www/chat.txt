@@ -1,3 +1,7 @@
+<div class="question">what's up?</div>
+<div class="answer">sky<a class="improve" title="Click to improve answer" href="improve.php?question=what's up?&answer=sky">&#9997;</a></div>
+<div class="question">what's up?</div>
+<div class="answer">cool bro<a class="improve" title="Click to improve answer" href="improve.php?question=what's up?&answer=cool bro">&#9997;</a></div>
 <div class="question">neviem co by som k tomu dodal</div>
 <div class="answer">vies co, zacinas ma trochu nudit...<a class="improve" title="Click to improve answer" href="improve.php?question=neviem co by som k tomu dodal&answer=vies co, zacinas ma trochu nudit...">&#9997;</a></div>
 <div class="question">alebo</div>
@@ -33,7 +37,3 @@
 <div class="question">tak to je sila</div>
 <div class="answer">tak veru<a class="improve" title="Click to improve answer" href="improve.php?question=tak to je sila&answer=tak veru">&#9997;</a></div>
 <div class="question">tak to je sila</div>
-<div class="answer">dobre<a class="improve" title="Click to improve answer" href="improve.php?question=tak to je sila&answer=dobre">&#9997;</a></div>
-<div class="question">tak to je sila</div>
-<div class="answer">obavam sa ze temy nazho rozhovoru sa vycerpali, koncim<a class="improve" title="Click to improve answer" href="improve.php?question=tak to je sila&answer=obavam sa ze temy nazho rozhovoru sa vycerpali, koncim">&#9997;</a></div>
-<div class="question">vobec nic?</div>
