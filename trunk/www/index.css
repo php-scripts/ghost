@@ -82,3 +82,19 @@ div.answer {
   background: url('icon.png') no-repeat 0px 4px;
   padding-bottom: 1ex;
 }
+
+a.improve {
+  color: blue;
+  margin-left: 1ex;
+}
+
+div.improve {
+  margin-top: 1em;
+  font-weight: bold;
+}
+
+input.improve {
+  display: block;
+  margin: 0px;
+  margin-top: 1em;
+}

@@ -1,3 +1,15 @@
+<div class="question">dobry den</div>
+<div class="answer">hmmm<a class="improve" title="Click to improve answer" href="improve.php?question=dobry den&answer=hmmm">&#9997;</a></div>
+<div class="question">dobry den</div>
+<div class="answer">obavam sa ze temy nazho rozhovoru sa vycerpali, koncim<a class="improve" title="Click to improve answer" href="improve.php?question=dobry den&answer=obavam sa ze temy nazho rozhovoru sa vycerpali, koncim">&#9997;</a></div>
+<div class="question">dobry den</div>
+<div class="answer">zaujimave<a class="improve" title="Click to improve answer" href="improve.php?question=dobry den&answer=zaujimave">&#10008;</a></div>
+<div class="question">dobry den</div>
+<div class="answer">obavam sa ze temy nazho rozhovoru sa vycerpali, koncim<a class="improve" title="Click to improve answer" href="improve.php?question=dobry den&answer=obavam sa ze temy nazho rozhovoru sa vycerpali, koncim">&#9998;</a></div>
+<div class="question">dobry den</div>
+<div class="answer">netrep sprostosti<a class="improve" title="Click to improve answer" href="improve.php?question=dobry den&answer=netrep sprostosti">&#9997;</a></div>
+<div class="question">dobry den</div>
+<div class="answer">dobre<a class="improve" href="improve.php?question=dobry den&answer=dobre">&#9997;</a></div>
 <div class="question">aaaaaaaaa</div>
 <div class="answer">vies co, zacinas ma trochu nudit...</div>
 <div class="question">jaku temu</div>
@@ -6,15 +18,3 @@
 <div class="answer">o nicom a o vsetkom, navrhni nejaku temu</div>
 <div class="question">nie</div>
 <div class="answer">co nie</div>
-<div class="question">vazne?</div>
-<div class="answer">hmmm</div>
-<div class="question">kto si?</div>
-<div class="answer">volam sa chatbot a som stroj</div>
-<div class="question">kolko je 1+1</div>
-<div class="answer">netrep sprostosti</div>
-<div class="question">ako sa mas?</div>
-<div class="answer">pohoda</div>
-<div class="question">kolko je hodin?</div>
-<div class="answer">dobre</div>
-<div class="question">aj ty trepes</div>
-<div class="answer">strasne trepes</div>
