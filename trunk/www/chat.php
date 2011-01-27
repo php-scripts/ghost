@@ -3,7 +3,9 @@
   $question = str_replace("\n"," ",htmlspecialchars(strip_tags($_REQUEST['question'])));
   $answer = '';
 
-  if ($_REQUEST['redirect']!='false')
+  $debug = (@$_REQUEST['debug'] == 'true');
+
+  if ($debug)
     header('Content-Type: text/plain; charset=utf-8');
 
   if ( $question != '' ) {
@@ -16,27 +18,18 @@
     require_once "sam.php";
     require_once "variation.php";
     require_once "topic.php";
+    require_once "eval.php";
 
     // split question to words
     $sentence = ghostSentence($question);
     
-    if ($_REQUEST['redirect']=='false') {
+    if ($debug) {
       print_r($sentence);
       echo "<br/>\n";
     }
 
-    // language override via cookie or param
-    if ( ($_COOKIE['lang'] == 'en')||($_REQUEST['lang'] == 'en')||($_REQUEST['lang_en'] == 'on') ) $language = 'en';
-    if ( ($_COOKIE['lang'] == 'sk')||($_REQUEST['lang'] == 'sk')||($_REQUEST['lang_sk'] == 'on') ) $language = 'sk';
-    //echo "r-lang = ".$_REQUEST['lang']." language=$language<br/>\n";
-
-    // quess language
-    if (empty($language)) {
-      $language = 'en';
-      if (strpos(' '.$_SERVER['HTTP_ACCEPT_LANGUAGE'],'sk') > 0) 
-        $language = 'sk';
-    }   
-    //echo "r-lang = ".$_REQUEST['lang']." language=$language<br/>\n";
+    // detect language    
+    $language = ghostLanguage();
     
     // ask various AI one by one
 
@@ -47,6 +40,7 @@
     if (empty($answer)) $answer = ghostSamAsk($sentence,$language,'improve');
 
     // real AIs
+    if (empty($answer)) $answer = ghostEvalAsk($question);
     if (empty($answer)) $answer = ghostDrknowAsk($sentence,$language);
     if (empty($answer)) $answer = ghostSamAsk($sentence,$language,'sam');
     if (empty($answer)) $answer = ghostVariationAsk($sentence,$language);
@@ -60,16 +54,21 @@
       $attr = explode("\n",file_get_contents("data/$language/attribute.dat"));
       print_r($attr);
       for ($a=0; $a<count($attr) / 2; $a++)
-        $answer = str_replace($attr[2*$i],$attr[2*$i+1],$answer);
+        $answer = str_replace($attr[2*$a],$attr[2*$a+1],$answer);
+      // some attributes are "smart"
+      $answer = str_replace('$time;',date('H:i'),$answer);
+      $answer = str_replace('$date;',date('d.m Y'),$answer);
+      $answer = str_replace('$year;',date('Y'),$answer);
     }
 
     // lets lurker also log answer (so we see in lurker's log what was question and answer)
     ghostLurkerAsk("--> $answer",$language);
 
-    if ($_REQUEST['redirect']=='false')
+    if ($debug)
       echo "Q: $question<br/>\nA: $answer<br/>\n";
 
     // store answer to the begining of chat file
+    $chat = "";
     $chat .= "<div class=\"question\">$question</div>\n";
     $chat .= "<div class=\"answer\">$answer<a class=\"improve\" title=\"Click to improve answer\" href=\"improve.php?lang=$language&question=$question&answer=$answer\">&#9997;</a></div>\n";
     $chat .= file_get_contents('chat.txt');
@@ -82,6 +81,6 @@
   }
   
   // redirect back to index page
-  if ($_REQUEST['redirect']!='false')
+  if (!$debug)
     header('Location: index.php?lang='.$language);
 ?>

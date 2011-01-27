@@ -1,6 +1,23 @@
 <?php
   // sentence normalization
 
+  function ghostLanguage() {
+    // guess which language user want to use
+
+    // language override via cookie or param
+    if ( (@$_COOKIE['lang'] == 'en')||(@$_REQUEST['lang'] == 'en')||(@$_REQUEST['lang_en'] == 'on') ) $language = 'en';
+    if ( (@$_COOKIE['lang'] == 'sk')||(@$_REQUEST['lang'] == 'sk')||(@$_REQUEST['lang_sk'] == 'on') ) $language = 'sk';
+
+    // quess language
+    if (empty($language)) {
+      $language = 'en';
+      if (strpos(' '.$_SERVER['HTTP_ACCEPT_LANGUAGE'],'sk') > 0) 
+        $language = 'sk';
+    }
+    
+    return $language;   
+  }
+
   function ghostSentenceRemoveEmoticons($AQuestion) {
     // remove most common but safe to remove emoticons from sentence
     $e = array(
@@ -18,10 +35,8 @@
     return trim(str_replace($e,'',$AQuestion));
   }
 
-
-  function ghostSentence($AQuestion) {
-    // convert sentence into array of words (split by word separators) and clean it up
-
+  function ghostSentenceNormalize($AQuestion) {
+    // basic normalization of sentence
     // remove smileys
     $AQuestion = ghostSentenceRemoveEmoticons($AQuestion);
 
@@ -46,6 +61,15 @@
       $old2 = $old1;
       $old1 = $s[$i];
     }
+    
+    return $AQuestion;
+  }
+
+  function ghostSentence($AQuestion) {
+    // convert sentence into array of words (split by word separators) and clean it up
+
+    // basic filter  
+    $AQuestion = ghostSentenceNormalize($AQuestion);
 
     // split sentence to words
     // FIXME: add [ and ]
