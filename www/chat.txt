@@ -1,3 +1,17 @@
+<div class="question">funguje to</div>
+<div class="answer">no jasne ze to funguje<a class="improve" title="Click to improve answer" href="improve.php?lang=sk&question=funguje to&answer=no jasne ze to funguje">&#9997;</a></div>
+<div class="question">funguje to</div>
+<div class="answer">...<a class="improve" title="Click to improve answer" href="improve.php?lang=sk&question=funguje to&answer=...">&#9997;</a></div>
+<div class="question">pokus</div>
+<div class="answer">pokusy mam rad<a class="improve" title="Click to improve answer" href="improve.php?lang=sk&question=pokus&answer=pokusy mam rad">&#9997;</a></div>
+<div class="question">pokus</div>
+<div class="answer">pokus úspešný :D<a class="improve" title="Click to improve answer" href="improve.php?lang=sk&question=pokus&answer=pokus úspešný :D">&#9997;</a></div>
+<div class="question">wow</div>
+<div class="answer">hmmm<a class="improve" title="Click to improve answer" href="improve.php?lang=sk&question=wow&answer=hmmm">&#9997;</a></div>
+<div class="question">teraz som happy</div>
+<div class="answer">to ma tesi<a class="improve" title="Click to improve answer" href="improve.php?lang=sk&question=teraz som happy&answer=to ma tesi">&#9997;</a></div>
+<div class="question">heya</div>
+<div class="answer">heja ďunďa heja (či tak nejak)<a class="improve" title="Click to improve answer" href="improve.php?lang=sk&question=heya&answer=heja ďunďa heja (či tak nejak)">&#9997;</a></div>
 <div class="question">guess what?</div>
 <div class="answer">ok<a class="improve" title="Click to improve answer" href="improve.php?lang=en&question=guess what?&answer=ok">&#9997;</a></div>
 <div class="question">guess what?</div>
@@ -23,17 +37,3 @@
 <div class="question">alebo</div>
 <div class="answer">alebo aj tak :D<a class="improve" title="Click to improve answer" href="improve.php?question=alebo&answer=alebo aj tak :D">&#9997;</a></div>
 <div class="question">alebo</div>
-<div class="answer">vies co, zacinas ma trochu nudit...<a class="improve" title="Click to improve answer" href="improve.php?question=alebo&answer=vies co, zacinas ma trochu nudit...">&#9997;</a></div>
-<div class="question">alebo</div>
-<div class="answer">...<a class="improve" title="Click to improve answer" href="improve.php?question=alebo&answer=...">&#9997;</a></div>
-<div class="question">uz sa tesim</div>
-<div class="answer">aj ja, ako male decko na vianoce<a class="improve" title="Click to improve answer" href="improve.php?question=uz sa tesim&answer=aj ja, ako male decko na vianoce">&#9997;</a></div>
-<div class="question">uz sa tesim</div>
-<div class="answer">ok, podme radsej na inu temu, o com pokecame<a class="improve" title="Click to improve answer" href="improve.php?question=uz sa tesim&answer=ok, podme radsej na inu temu, o com pokecame">&#9997;</a></div>
-<div class="question">co zaujimave?</div>
-<div class="answer">co ti mam na to povedat...<a class="improve" title="Click to improve answer" href="improve.php?question=co zaujimave?&answer=co ti mam na to povedat...">&#9997;</a></div>
-<div class="question">ale preco by sme to robili?</div>
-<div class="answer">zaujimave<a class="improve" title="Click to improve answer" href="improve.php?question=ale preco by sme to robili?&answer=zaujimave">&#9997;</a></div>
-<div class="question">mozeme aj ist spat</div>
-<div class="answer">jasne ze mozeme<a class="improve" title="Click to improve answer" href="improve.php?question=mozeme aj ist spat&answer=jasne ze mozeme">&#9997;</a></div>
-<div class="question">mozeme pokecat</div>
