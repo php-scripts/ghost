@@ -9,15 +9,8 @@
   $sentence = ghostSentence($question);
   $question = ghostSentencePartString($sentence,0,99);
   
-  // language override via cookie or param
-  if ( ($_COOKIE['lang'] == 'en')||($_REQUEST['lang'] == 'en')||($_REQUEST['lang_en'] == 'on') ) $language = 'en';
-  if ( ($_COOKIE['lang'] == 'sk')||($_REQUEST['lang'] == 'sk')||($_REQUEST['lang_sk'] == 'on') ) $language = 'sk';
-  // quess language
-  if (empty($language)) {
-    $language = 'en';
-    if (strpos(' '.$_SERVER['HTTP_ACCEPT_LANGUAGE'],'sk') > 0) 
-      $language = 'sk';
-  }   
+  // guess language 
+  $language = ghostLanguage();
 
   // append question to log
   if ( (!empty($question))&&(!empty($improved)) ) {

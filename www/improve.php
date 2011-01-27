@@ -20,7 +20,8 @@
   
     <form action="improve-add.php" method="get">
       <?php
-        $lang = $_REQUEST['lang'];
+        require_once "sentence.php";
+        $lang = ghostLanguage();
         if ($lang == 'en') {
           $en1 = ' checked';
           $sk1 = ' ';

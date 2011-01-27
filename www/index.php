@@ -21,8 +21,10 @@
   
     <form action="chat.php" method="get">
       <?php
-        $lang = $_REQUEST['lang'];
-        if ($lang == 'en') {
+        require_once "sentence.php";
+        // detect language    
+        $language = ghostLanguage();
+        if ($language == 'en') {
           $en1 = ' checked';
           $sk1 = ' ';
         } else {
@@ -44,9 +46,23 @@
         echo $chat[$i]."\n";
 
       /*
+      DONE:
+      - added eval for basic math formulas
+      - fixed output attributes ($a, not $i)
+      - added $time; $date;
+      - moved language autodetect to ghostLanguage() in sentence.php
+      
       TODO:
-      - 1 + 1 neprejde cez spliter
-      - nevie kolko je hodin lebo to robil eval ktory este nie je spraveny
+      - show this to few beta testers
+        - s
+        - s170
+        - sw
+        - nb
+      - synchronize new QA from betatesters
+      - release it (update google code page + link to live demo)
+      
+      Later:
+      - use eval class from phpclassess once that stupid site start working
       - for performance reasons, I should append new answers to the end of file or something (or maybe just use mysql like other sane people)
       */
     ?>  
