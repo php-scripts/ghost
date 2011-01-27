@@ -10,7 +10,7 @@
     //echo "question=$question<br/>";
 
     // load data file
-    $file = file_get_contents("data/$ALanguage/$AFile.dat") or die("sam: cannot open '$AFile' for $ALanguage language");
+    $file = file_get_contents("data/$ALanguage/$AFile.dat"); // or die("sam: cannot open '$AFile' for $ALanguage language");
     $lines = explode("\n",$file);
 
     // find every matching question
