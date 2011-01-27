@@ -1,6 +1,11 @@
 <?php
   // sentence normalization
 
+  function ghostParam($AName) {
+    // get and filter parameter from url or form
+    return substr(trim(str_replace("\n"," ",htmlspecialchars(strip_tags(@$_REQUEST[$AName])))),0,2000);
+  }
+
   function ghostLanguage() {
     // guess which language user want to use
 

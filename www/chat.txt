@@ -1,3 +1,7 @@
+<div class="question">zda sa mi ze si nejaky cudny dneska</div>
+<div class="answer">dneska som nesvoj<a class="improve" title="Click to improve answer" href="improve.php?lang=sk&question=zda sa mi ze si nejaky cudny dneska&answer=dneska som nesvoj">&#9997;</a></div>
+<div class="question">zda sa mi ze si nejaky cudny dneska</div>
+<div class="answer">zaujimave<a class="improve" title="Click to improve answer" href="improve.php?lang=sk&question=zda sa mi ze si nejaky cudny dneska&answer=zaujimave">&#9997;</a></div>
 <div class="question">funguje to</div>
 <div class="answer">no jasne ze to funguje<a class="improve" title="Click to improve answer" href="improve.php?lang=sk&question=funguje to&answer=no jasne ze to funguje">&#9997;</a></div>
 <div class="question">funguje to</div>
@@ -32,8 +36,4 @@
 <div class="answer">alebo aj tak :D<a class="improve" title="Click to improve answer" href="improve.php?question=alebo&answer=alebo aj tak :D">&#9997;</a></div>
 <div class="question">alebo</div>
 <div class="answer">alebo, alebo ani nie<a class="improve" title="Click to improve answer" href="improve.php?question=alebo&answer=alebo, alebo ani nie">&#9997;</a></div>
-<div class="question">alebo</div>
-<div class="answer">alebo, alebo ani nie<a class="improve" title="Click to improve answer" href="improve.php?question=alebo&answer=alebo, alebo ani nie">&#9997;</a></div>
-<div class="question">alebo</div>
-<div class="answer">alebo aj tak :D<a class="improve" title="Click to improve answer" href="improve.php?question=alebo&answer=alebo aj tak :D">&#9997;</a></div>
 <div class="question">alebo</div>
