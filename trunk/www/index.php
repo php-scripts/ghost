@@ -46,23 +46,15 @@
         echo $chat[$i]."\n";
 
       /*
-      DONE:
-      - added eval for basic math formulas
-      - fixed output attributes ($a, not $i)
-      - added $time; $date;
-      - moved language autodetect to ghostLanguage() in sentence.php
-      
       TODO:
+      - rss feed for recent changes in topic user improvements
       - show this to few beta testers
-        - s
-        - s170
-        - sw
+        - sm/s170
         - nb
-      - synchronize new QA from betatesters
-      - release it (update google code page + link to live demo)
+        - gmail      
       
       Later:
-      - use eval class from phpclassess once that stupid site start working
+      - use eval class from phpclassess once their stupid site start working
       - for performance reasons, I should append new answers to the end of file or something (or maybe just use mysql like other sane people)
       */
     ?>  
