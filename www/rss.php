@@ -9,6 +9,6 @@
     $lines[$i] = str_replace('answer">','answer">A: ',$lines[$i]);
   }
   $file = implode("\n",$lines);
-  puRssItem(md5($file),"New comments","http://ayass.xf.cz/ghost/rss.php","http://ayass.xf.cz/ghost/rss.php",$file);
+  puRssItem(md5($file),"New comments","http://ayass.xf.cz/ghost/","http://ayass.xf.cz/ghost/",$file);
   puRssEnd();
 ?>
