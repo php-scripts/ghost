@@ -700,3 +700,15 @@ get lost
 get the fuck out
 *show me in trade
 [TOPIC END]
+[TOPIC]
+I am $age; years old
+*how old are you
+*what is your age
+*age
+[TOPIC END]
+
+[TOPIC]
+I was born in $location;
+*where were you born
+[TOPIC END]
+
