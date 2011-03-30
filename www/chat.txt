@@ -1,3 +1,9 @@
+<div class="question">co je hlavne mesto nepalu</div>
+<div class="answer">kathmandu<a class="improve" title="Click to improve answer" href="improve.php?lang=sk&question=co je hlavne mesto nepalu&answer=kathmandu">&#9997;</a></div>
+<div class="question">čo je hlavné mesto Nepálu?</div>
+<div class="answer">kathmandu<a class="improve" title="Click to improve answer" href="improve.php?lang=sk&question=čo je hlavné mesto Nepálu?&answer=kathmandu">&#9997;</a></div>
+<div class="question">co je hlavne mesto nepalu?</div>
+<div class="answer">kathmandu<a class="improve" title="Click to improve answer" href="improve.php?lang=sk&question=co je hlavne mesto nepalu?&answer=kathmandu">&#9997;</a></div>
 <div class="question">bla bla hlavne mesto ceska</div>
 <div class="answer">praha<a class="improve" title="Click to improve answer" href="improve.php?lang=sk&question=bla bla hlavne mesto ceska&answer=praha">&#9997;</a></div>
 <div class="question">What is capital city of japan?</div>
@@ -31,9 +37,3 @@
 <div class="question">chces sa rozprávať o niečom?</div>
 <div class="answer">Jasne ze chcem<a class="improve" title="Click to improve answer" href="improve.php?lang=sk&question=chces sa rozprávať o niečom?&answer=Jasne ze chcem">&#9997;</a></div>
 <div class="question">chces sa rozprávať o niečom?</div>
-<div class="answer">Chcem!<a class="improve" title="Click to improve answer" href="improve.php?lang=sk&question=chces sa rozprávať o niečom?&answer=Chcem!">&#9997;</a></div>
-<div class="question">chces sa rozprávať o niečom?</div>
-<div class="answer">Chcem!<a class="improve" title="Click to improve answer" href="improve.php?lang=sk&question=chces sa rozprávať o niečom?&answer=Chcem!">&#9997;</a></div>
-<div class="question">co mas rad?</div>
-<div class="answer">mám rád vanilkovú zmrzlinu<a class="improve" title="Click to improve answer" href="improve.php?lang=sk&question=co mas rad?&answer=mám rád vanilkovú zmrzlinu">&#9997;</a></div>
-<div class="question">co mas rad?</div>
