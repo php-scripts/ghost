@@ -23,7 +23,7 @@
 
     // find questioned country name
     $country = '';
-    $openings = explode("\n",file_get_contents("../data/$ALanguage/capital-opening.dat"));
+    $openings = explode("\n",file_get_contents("data/$ALanguage/capital-opening.dat"));
     $q = ghostSentencePartString($ASentence,0,99);
     for ($i=0; $i<count($openings); $i++) {
       // does questiong start with this openings?
@@ -37,7 +37,7 @@
 
     // find capital city by country
     if (!empty($country)) {
-      $lines = explode("\n",file_get_contents("../data/$ALanguage/capital.dat"));
+      $lines = explode("\n",file_get_contents("data/$ALanguage/capital.dat"));
       //echo "lines=".count($lines)."<br/>";
       for ($i=0; $i<count($lines); $i++)
         //echo $lines[$i]." ?= ".$country."<br/>";
