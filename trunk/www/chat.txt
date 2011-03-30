@@ -1,3 +1,17 @@
+<div class="question">bla bla hlavne mesto ceska</div>
+<div class="answer">praha<a class="improve" title="Click to improve answer" href="improve.php?lang=sk&question=bla bla hlavne mesto ceska&answer=praha">&#9997;</a></div>
+<div class="question">What is capital city of japan?</div>
+<div class="answer">tokyo<a class="improve" title="Click to improve answer" href="improve.php?lang=en&question=What is capital city of japan?&answer=tokyo">&#9997;</a></div>
+<div class="question">What is capital city of japan?</div>
+<div class="answer">you know what, you starting to bore me a little...<a class="improve" title="Click to improve answer" href="improve.php?lang=en&question=What is capital city of japan?&answer=you know what, you starting to bore me a little...">&#9997;</a></div>
+<div class="question">ake je hlavne mesto ugandy?</div>
+<div class="answer">kampala<a class="improve" title="Click to improve answer" href="improve.php?lang=sk&question=ake je hlavne mesto ugandy?&answer=kampala">&#9997;</a></div>
+<div class="question">co je hlavne mesto nemecka?</div>
+<div class="answer">berlin<a class="improve" title="Click to improve answer" href="improve.php?lang=sk&question=co je hlavne mesto nemecka?&answer=berlin">&#9997;</a></div>
+<div class="question">co je hlavne mesto nemecka?</div>
+<div class="answer">netuším, zemepis mi nikdy nešiel<a class="improve" title="Click to improve answer" href="improve.php?lang=sk&question=co je hlavne mesto nemecka?&answer=netuším, zemepis mi nikdy nešiel">&#9997;</a></div>
+<div class="question">co je hlavne mesto bosny?</div>
+<div class="answer">nemám ani šajnu<a class="improve" title="Click to improve answer" href="improve.php?lang=sk&question=co je hlavne mesto bosny?&answer=nemám ani šajnu">&#9997;</a></div>
 <div class="question">konicky</div>
 <div class="answer">najradsej kecam od rana do vecera<a class="improve" title="Click to improve answer" href="improve.php?lang=sk&question=konicky&answer=najradsej kecam od rana do vecera">&#9997;</a></div>
 <div class="question">Videl som medveďa</div>
@@ -23,17 +37,3 @@
 <div class="question">co mas rad?</div>
 <div class="answer">mám rád vanilkovú zmrzlinu<a class="improve" title="Click to improve answer" href="improve.php?lang=sk&question=co mas rad?&answer=mám rád vanilkovú zmrzlinu">&#9997;</a></div>
 <div class="question">co mas rad?</div>
-<div class="answer">zaujimave<a class="improve" title="Click to improve answer" href="improve.php?lang=sk&question=co mas rad?&answer=zaujimave">&#9997;</a></div>
-<div class="question">ja? nie ty si nahodou nudny kamo?</div>
-<div class="answer">ok, podme radsej na inu temu, o com pokecame<a class="improve" title="Click to improve answer" href="improve.php?lang=sk&question=ja? nie ty si nahodou nudny kamo?&answer=ok, podme radsej na inu temu, o com pokecame">&#9997;</a></div>
-<div class="question">zaujimave co??veci?</div>
-<div class="answer">vies co, zacinas ma trochu nudit...<a class="improve" title="Click to improve answer" href="improve.php?lang=sk&question=zaujimave co??veci?&answer=vies co, zacinas ma trochu nudit...">&#9997;</a></div>
-<div class="question">co mas rad?</div>
-<div class="answer">zaujimave<a class="improve" title="Click to improve answer" href="improve.php?lang=sk&question=co mas rad?&answer=zaujimave">&#9997;</a></div>
-<div class="question">hmm no ani nie..:D </div>
-<div class="answer">zzz...<a class="improve" title="Click to improve answer" href="improve.php?lang=sk&question=hmm no ani nie..:D &answer=zzz...">&#9997;</a></div>
-<div class="question">chces sa rozpravat o dobru?</div>
-<div class="answer">zaujimave<a class="improve" title="Click to improve answer" href="improve.php?lang=sk&question=chces sa rozpravat o dobru?&answer=zaujimave">&#9997;</a></div>
-<div class="question">co mas na myzli?</div>
-<div class="answer">dobre<a class="improve" title="Click to improve answer" href="improve.php?lang=sk&question=co mas na myzli?&answer=dobre">&#9997;</a></div>
-<div class="question">no neviem .. co mas na mzlsi?</div>

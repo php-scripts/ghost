@@ -20,35 +20,29 @@
   function ghostCapitalAsk($ASentence,$ALanguage) {
     // find capital city if asked for one
     $country = "";
-    
+
     // find questioned country name
-    $q4 = ghostSentencePartString($ASentence,0,3);
-    if (
-          ($q4 == "ake je hlavne mesto")
-        ||($q4 == "co je hlavne mesto")
-        ||($q4 == "povedz mi hlavne mesto")
-       ) $country = ghostSentencePartString($ASentence,4,99);                   
+    $country = '';
+    $openings = explode("\n",file_get_contents("../data/$ALanguage/capital-opening.dat"));
+    $q = ghostSentencePartString($ASentence,0,99);
+    for ($i=0; $i<count($openings); $i++) {
+      // does questiong start with this openings?
+      $o = trim($openings[$i]);
+      $a = strpos($q,$o);
+      if ( ($a > 0)||($a===0) ) {
+        $country = substr($q,$a+strlen($o)+1,strlen($q));
+      }
+    } 
+    //echo "country = '$country'<br/>";
 
-    $q3 = ghostSentencePartString($ASentence,0,2);
-    if (
-          ($q3 == "vymenuj hlavne mesto")
-        ||($q3 == "poznas hlavne mesto")
-       ) $country = ghostSentencePartString($ASentence,3,99);                   
-
-    $q2 = ghostSentencePartString($ASentence,0,1);
-    if (
-          ($q2 == "hlavne mesto")
-       ) $country = ghostSentencePartString($ASentence,2,99);                   
-  
-    // reply random sentence from data file
-    $file = file_get_contents("../data/$ALanguage/capital.dat");
-    $lines = explode("\n",$file);
-
+    // find capital city by country
     if (!empty($country)) {
-      //echo "country=..$country..<br/>";
+      $lines = explode("\n",file_get_contents("../data/$ALanguage/capital.dat"));
+      //echo "lines=".count($lines)."<br/>";
       for ($i=0; $i<count($lines); $i++)
-        // echo $lines[$i]." ?= ".$country."<br/>";
+        //echo $lines[$i]." ?= ".$country."<br/>";
         if ($lines[$i] == $country) {
+          //echo "match line $i<br/>";
           while ($i<count($lines)) {
             if (empty($lines[$i]))
               return $lines[$i-1];
@@ -61,10 +55,9 @@
     // TODO: backward searach "for question containing 'paris', answer could be: I like France"  
     
     // give up
-    return '';        
+    return '';
   }
-  
-  $sentence = ghostSentence("Aké je hlavné mesto barmy?");  echo ghostCapitalAsk($sentence,"sk")."<br/>";
-  $sentence = ghostSentence("Poznas hlavne mesto barmy?");    echo ghostCapitalAsk($sentence,"sk")."<br/>";
-  $sentence = ghostSentence("hlavne mesto barmy?");           echo ghostCapitalAsk($sentence,"sk")."<br/>";
+
+  //$sentence = ghostSentence("hlavne mesto barmy?");
+  //echo ghostCapitalAsk($sentence,"sk")."<br/>";
 ?>
