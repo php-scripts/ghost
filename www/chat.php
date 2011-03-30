@@ -19,6 +19,7 @@
     require_once "variation.php";
     require_once "topic.php";
     require_once "eval.php";
+    require_once "capital.php";
 
     // split question to words
     $sentence = ghostSentence($question);
@@ -42,6 +43,7 @@
     // real AIs
     if (empty($answer)) $answer = ghostEvalAsk($question);
     if (empty($answer)) $answer = ghostDrknowAsk($sentence,$language);
+    if (empty($answer)) $answer = ghostCapitalAsk($sentence,$language);
     if (empty($answer)) $answer = ghostSamAsk($sentence,$language,'sam');
     if (empty($answer)) $answer = ghostVariationAsk($sentence,$language);
     if (empty($answer)) $answer = ghostTopicAsk($sentence,$language);
