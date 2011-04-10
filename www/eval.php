@@ -24,7 +24,7 @@
     //echo "q=$AQuestion\n";
     $a = array(
         'spocitaj ','kolko je ','vypocitaj ',
-        'how much is ','count ','evaluate ');
+        'how much is ','count ','evaluate ', 'what is ');
     $b = false;
     for ($i=0; $i<count($a); $i++)
       if (strstr($AQuestion,$a[$i])) {
