@@ -712,3 +712,105 @@ I was born in $location;
 *where were you born
 [TOPIC END]
 
+[TOPIC]
+I don't know when
+Hard to tell when it will happen
+When? I don't know...
+^when
+[TOPIC END]
+
+[TOPIC]
+What's next? I guess you will say something stupid
+*what's next
+[TOPIC END]
+
+[TOPIC]
+stop repeating my words
+*you are talking gibberish
+[TOPIC END]
+
+[TOPIC]
+that's cool topic
+I like that topic
+wonderful topic
+I like to talk about that too
+*let's talk about
+[TOPIC END]
+
+[TOPIC]
+no, I hate it
+I kinda hate it
+I don't like that
+*do you not like
+*don't you like
+*you don't like
+[TOPIC END]
+
+[TOPIC]
+My master is wonderful fisherman
+My master is very good fisherman
+My master like fishing
+My master catched many fishes
+*fish
+[TOPIC END]
+
+[TOPIC]
+Only?
+*only
+[TOPIC END]
+
+[TOPIC]
+You are picky
+Why so picky
+*i will only
+[TOPIC END]
+
+[TOPIC]
+So you like talking ha?
+*talk
+[TOPIC END]
+
+[TOPIC]
+It's hard to talk, my knowledge is limited
+I can't find the right words
+It's hard to describe
+*spit it out
+[TOPIC END]
+
+[TOPIC]
+Please don't kill me
+Don't kill anybody please
+No killing please
+*kill you
+[TOPIC END]
+
+[TOPIC]
+prepare to what?
+*prepare
+[TOPIC END]
+
+[TOPIC]
+no, I don't have sister
+I wish I had a sister
+*do you have a sister
+[TOPIC END]
+
+[TOPIC]
+I don't know who exactly
+*who do you think
+[TOPIC END]
+
+[TOPIC]
+some looser, I guess
+you look like interesting person
+someone dumb enough to be talking with bot
+*who do you think i am
+[TOPIC END]
+
+[TOPIC]
+I know, but I am slowly improoving myself
+Yeah, but I try my best
+*you are not a very good
+*you are not a very skilled
+[TOPIC END]
+
