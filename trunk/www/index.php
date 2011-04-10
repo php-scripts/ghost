@@ -51,6 +51,8 @@
       - something for cleaning up lurker files from web, not just via ftp
       - database of capital cities and countries? or geographic AI
       - learn it few course words
+      - add to drknow: "just tell me everything you know about fish."
+      - 
       
       Later:
       - use eval class from phpclassess once their stupid site start working
