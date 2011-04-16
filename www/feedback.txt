@@ -1,1 +1,1 @@
-<div class="feedback"><span class="name">dvh</span>Hi, you can leave feedback or ideas here</div>
+<div class="feedback"><span class="name">dvh</span>Hi, this is new feedback form. You can leave your feedbacks or ideas here.</div>
