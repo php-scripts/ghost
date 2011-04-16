@@ -11,7 +11,7 @@
 	</head>
 	<script src="index.js"></script>
   
-	<body onload="document.getElementById('input1').focus()">
+	<body onload="document.getElementById('input1').focus(); if (localStorage && localStorage['name']) document.getElementById('name').value = localStorage['name']">
 
     <div id="logo">
       <a href="http://code.google.com/p/ghost/">
@@ -20,7 +20,7 @@
       </a>
     </div>
 
-
+    <!-- char form -->
     <form action="chat.php" method="get">
       <?php
         require_once "sentence.php";
@@ -41,36 +41,31 @@
       <input type="submit" />
     </form>  
 
+    <!-- feedback form -->
     <div class="feedbackform">
-
       <form action="feedback.php" method="post">
         <div class="middle">
           Feedback
         </div>
-
         <div class="name">
-          Name: <input type="text" name="name" value="anonymous"/>
+          Name: <input id="name" type="text" name="name" value="anonymous"/>
         </div>
-
         <div class="message">
           Message: <textarea id="input2" name="feedback"></textarea>
         </div>
-        
         <div class="buttons">
-          <input type="submit" />
+          <input type="submit" onclick="localStorage.setItem('name',document.getElementById('name').value)"/>
         </div>
-        
       </form>
-      
+      <!-- feedback messages -->
       <?php
         $chat = explode("\n",file_get_contents('feedback.txt'));
         for ($i=0; ($i<2*20+1)&&($i<count($chat)-1); $i++)
           echo $chat[$i]."\n";
       ?>
-      
     </div>
 
-    
+    <!-- chat messages -->
     <?php
       //  no question, so only show chats
       $chat = explode("\n",file_get_contents('chat.txt'));
