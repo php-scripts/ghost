@@ -53,8 +53,10 @@ input[type="radio"] {
 }
 
 input[type="submit"] {
+  /* 
   width: 15%;
   margin: auto;
+  */
 }
 
 /*
@@ -97,4 +99,46 @@ input.improve {
   display: block;
   margin: 0px;
   margin-top: 1em;
+}
+
+div.feedbackform {
+  width: 250px;
+  float: right;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+div.feedbackform input[type="text"] {
+  width: 100%; 
+}
+
+div.middle {
+  text-align: center;
+  font-weight: bold;
+  /*border-bottom: 1px solid gray;*/
+  margin-bottom: 5px;
+}
+
+div.feedbackform textarea {
+  width: 100%;
+  height: 5em;
+}
+
+div.buttons {
+  /*border-bottom: 1px solid gray;*/
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+div.feedback {
+  font-weight: normal;
+  padding-left: 20px;
+  background: url('purin2/tango/16x16/apps/system-users.png') no-repeat 0px 2px;
+  padding-bottom: 1ex;
+}
+
+span.name {
+  font-weight: bold;
+  margin-right: 1ex;
 }

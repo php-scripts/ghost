@@ -6,6 +6,7 @@
     <link rel="alternate" type="application/rss+xml" href="rss.php" title="Ghost recent chats" />
     <link rel="alternate" type="application/rss+xml" href="rss-improve.php?lang=sk" title="Recent slovak improvements" />
     <link rel="alternate" type="application/rss+xml" href="rss-improve.php?lang=en" title="Recent english improvements" />
+    <link rel="alternate" type="application/rss+xml" href="rss-feedback.php" title="Recent feedbacks" />
     <link rel="stylesheet" type="text/css" href="index.css" />
 	</head>
 	<script src="index.js"></script>
@@ -18,7 +19,8 @@
         <h2>a tiny chat bot</h2>
       </a>
     </div>
-  
+
+
     <form action="chat.php" method="get">
       <?php
         require_once "sentence.php";
@@ -38,6 +40,36 @@
       <input id="input1" type="text" name="question" autofocus />
       <input type="submit" />
     </form>  
+
+    <div class="feedbackform">
+
+      <form action="feedback.php" method="post">
+        <div class="middle">
+          Feedback
+        </div>
+
+        <div class="name">
+          Name: <input type="text" name="name" value="anonymous"/>
+        </div>
+
+        <div class="message">
+          Message: <textarea id="input2" name="feedback"></textarea>
+        </div>
+        
+        <div class="buttons">
+          <input type="submit" />
+        </div>
+        
+      </form>
+      
+      <?php
+        $chat = explode("\n",file_get_contents('feedback.txt'));
+        for ($i=0; ($i<2*20+1)&&($i<count($chat)-1); $i++)
+          echo $chat[$i]."\n";
+      ?>
+      
+    </div>
+
     
     <?php
       //  no question, so only show chats
@@ -59,6 +91,6 @@
       - for performance reasons, I should append new answers to the end of file or something (or maybe just use mysql like other sane people)
       */
     ?>  
-
+    
 	</body>
 </html>
