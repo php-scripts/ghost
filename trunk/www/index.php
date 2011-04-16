@@ -13,6 +13,11 @@
   
 	<body onload="document.getElementById('input1').focus(); if (localStorage && localStorage['name']) document.getElementById('name').value = localStorage['name']">
 
+    <?php
+      require_once "purin2/core/core.php";
+      puLocalhostWarning();
+    ?>
+
     <div id="logo">
       <a href="http://code.google.com/p/ghost/">
         <h1>ghost</h1>
