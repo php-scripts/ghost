@@ -1,8 +1,10 @@
+<div class="feedback"><span class="name">dvh</span>toto je pokus</div>
+<div class="feedback"><span class="name">dvh</span>aaa</div>
+<div class="feedback"><span class="name">dvh</span></div>
+<div class="feedback"><span class="name">dvh</span>pokusna sprava</div>
+<div class="feedback"><span class="name">john</span>hello</div>
 <div class="feedback"><span class="name">ggaa</span>toto je tucne pismo</div>
 <div class="feedback"><span class="name">dvh</span>super stranka, mam par pripomienok:<br /><br />- prva<br />- druha<br />- tretia</div>
 <div class="feedback"><span class="name">toto je pokus</span>toto je pokus</div>
 <div class="feedback">asdfasdf</div>
 <div class="feedback">asdf asdf asdfasdf<br /></div>
-<div class="feedback">riadok1<br />2<br />3<br />4<br />5</div>
-<div class="feedback">this is some test message<br />on few lines</div>
-<div class="feedback">cool site bro</div>
