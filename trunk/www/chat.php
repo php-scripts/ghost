@@ -35,7 +35,7 @@
     // ask various AI one by one
 
     // first is just a logger
-    if (empty($answer)) $answer = ghostLurkerAsk($question,$language);
+    if (empty($answer)) $answer = ghostLurkerAsk('human: '.$question,$language);
 
     // AI improved by users
     if (empty($answer)) $answer = ghostSamAsk($sentence,$language,'improve');
@@ -64,7 +64,7 @@
     }
 
     // lets lurker also log answer (so we see in lurker's log what was question and answer)
-    ghostLurkerAsk("--> $answer",$language);
+    ghostLurkerAsk("GHOST: $answer\n",$language);
 
     if ($debug)
       echo "Q: $question<br/>\nA: $answer<br/>\n";
