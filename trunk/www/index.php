@@ -79,6 +79,7 @@
 
       /*
       TODO:
+      - vzdialene cistenie lurker logov na heslo alebo tak nejak
       - rss feed for recent changes in topic user improvements
       - something for cleaning up lurker files from web, not just via ftp
       - database of capital cities and countries? or geographic AI
