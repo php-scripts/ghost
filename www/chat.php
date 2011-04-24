@@ -1,6 +1,6 @@
 <?php
   // parse and answer question
-  $question = str_replace("\n"," ",htmlspecialchars(strip_tags($_REQUEST['question'])));
+  $question = trim(str_replace("\n"," ",htmlspecialchars(strip_tags($_REQUEST['question']))));
   $answer = '';
 
   $debug = (@$_REQUEST['debug'] == 'true');
@@ -20,6 +20,7 @@
     require_once "topic.php";
     require_once "eval.php";
     require_once "capital.php";
+    require_once "asdf.php";
 
     // split question to words
     $sentence = ghostSentence($question);
@@ -31,7 +32,7 @@
 
     // detect language    
     $language = ghostLanguage();
-    
+
     // ask various AI one by one
 
     // first is just a logger
@@ -47,6 +48,7 @@
     if (empty($answer)) $answer = ghostSamAsk($sentence,$language,'sam');
     if (empty($answer)) $answer = ghostVariationAsk($sentence,$language);
     if (empty($answer)) $answer = ghostTopicAsk($sentence,$language);
+    if (empty($answer)) $answer = ghostAsdfAsk($question,$language);
 
     // dumb is last resort
     if (empty($answer)) $answer = ghostDumbAsk($sentence,$language);
