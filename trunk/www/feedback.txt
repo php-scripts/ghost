@@ -1,1 +1,2 @@
+<div class="feedback"><span class="name">dvh</span>ghost now can identify gibberish words like &quot;jjkgjgjgjkbj&quot; or &quot;gjgjghjgj&quot;, he do so by analyzing occurance of characters in single word questions</div>
 <div class="feedback"><span class="name">dvh</span>Hi, this is new feedback form. You can leave your feedbacks or ideas here.</div>
