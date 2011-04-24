@@ -1,3 +1,9 @@
+<div class="question">jjkgjgjgjkbj</div>
+<div class="answer">Word 'jjkgjgjgjkbj' does not look like real word to me<a class="improve" title="Click to improve answer" href="improve.php?lang=en&question=jjkgjgjgjkbj&answer=Word 'jjkgjgjgjkbj' does not look like real word to me">&#9997;</a></div>
+<div class="question">jjkgjgjgjkbj</div>
+<div class="answer">jjkgjgjgjkbj? what do you mean by that?<a class="improve" title="Click to improve answer" href="improve.php?lang=en&question=jjkgjgjgjkbj&answer=jjkgjgjgjkbj? what do you mean by that?">&#9997;</a></div>
+<div class="question">jjkgjgjgjkbj</div>
+<div class="answer">I don't understand 'jjkgjgjgjkbj'<a class="improve" title="Click to improve answer" href="improve.php?lang=en&question=jjkgjgjgjkbj&answer=I don't understand 'jjkgjgjgjkbj'">&#9997;</a></div>
 <div class="question">hi</div>
 <div class="answer">hello<a class="improve" title="Click to improve answer" href="improve.php?lang=en&question=hi&answer=hello">&#9997;</a></div>
 <div class="question">ghgjjhgjhgjghjfhfh</div>
@@ -31,9 +37,3 @@
 <div class="question">so tell me one</div>
 <div class="answer">stop kidding me<a class="improve" title="Click to improve answer" href="improve.php?lang=en&question=so tell me one&answer=stop kidding me">&#9997;</a></div>
 <div class="question">tell jokes</div>
-<div class="answer">i like jokes<a class="improve" title="Click to improve answer" href="improve.php?lang=en&question=tell jokes&answer=i like jokes">&#9997;</a></div>
-<div class="question">ok</div>
-<div class="answer">what to do<a class="improve" title="Click to improve answer" href="improve.php?lang=en&question=ok&answer=what to do">&#9997;</a></div>
-<div class="question">ok</div>
-<div class="answer">ok<a class="improve" title="Click to improve answer" href="improve.php?lang=en&question=ok&answer=ok">&#9997;</a></div>
-<div class="question">yes</div>
