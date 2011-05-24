@@ -10,3 +10,6 @@ done
 echo "Backing up chat and feedback..."
 wget -qO ../www/chat.txt "http://ayass.xf.cz/ghost/chat.txt"
 wget -qO ../www/feedback.txt "http://ayass.xf.cz/ghost/feedback.txt"
+
+echo DONE
+read
