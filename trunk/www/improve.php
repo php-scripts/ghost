@@ -78,6 +78,7 @@
     <pre>
     Sentence contain: pizza
     Sentence contain: apple
+    Sentence contain: beer and wine
     Answers:
       I love # too
       I like # too
@@ -91,6 +92,13 @@
     Answers:
       I like ~
       I never visited ~
+      
+    Q: I was born in London
+    A: I like London
+    Q: Do you know I was born in London
+    A: I like London
+    Q: I was born in small town in europe
+    A: I like small town in europe
     </pre>
     
     <form action="improve-add-topic.php" method="get">

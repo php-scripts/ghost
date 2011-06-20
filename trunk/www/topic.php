@@ -33,8 +33,9 @@
               // question starts with s
               if (strpos(' '.$question,$s) == 1) {
                 // sign ~ means rest of the sentence, # means "s" itself
-                for ($r=0; $r<count($re); $r++) {
+                for ($r=0; $r<count($re); $r++) {            
                   $re[$r] = str_replace('#',substr($question,strlen($s)+1,999),$re[$r]);
+                  $re[$r] = str_replace('~',substr($question,strlen($s)+1,999),$re[$r]);
                   //echo $re[$r]."\n";
                 }
                 $cache = array_merge($cache,$re);
@@ -55,8 +56,12 @@
               // je aktualny riadok v otazke?
               //echo "matching '*' for '$s' in '$question'\n";
               if (strpos(' '.$question,$s) > 0) {
-                for ($r=0; $r<count($re); $r++)
+                for ($r=0; $r<count($re); $r++) {
                   $re[$r] = str_replace('#',$s,$re[$r]);
+                  $re[$r] = str_replace('~',substr($question,strpos($question,$s)+strlen($s)+1,999),$re[$r]);
+                  //echo "question=$question s=$s r=".$re[$r];
+                  //die();
+                }                  
                 $cache = array_merge($cache,$re);
                 //echo "--> FOUND !!!\n";
               }

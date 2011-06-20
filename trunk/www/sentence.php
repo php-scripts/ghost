@@ -46,7 +46,10 @@
     $AQuestion = ghostSentenceRemoveEmoticons($AQuestion);
 
     // lowercase
-    $AQuestion = mb_strtolower($AQuestion,'UTF-8');
+    if (function_exists('mb_strtolower'))
+      $AQuestion = mb_strtolower($AQuestion,'UTF-8');
+    else
+      $AQuestion = strtolower($AQuestion);
 
     // remove diacritics (slovak data has no diacritics anyway)
     $accent1 = array('á','ä','č','ď','é','ě','í','ĺ','ľ','ň','ó','ô','ŕ','ř','š','ť','ú','ů','ý','ž');
@@ -58,7 +61,12 @@
     $AQuestion = '';
     $old1 = '';
     $old2 = '';
-    for ($i=0; $i<mb_strlen($s); $i++) {
+    if (function_exists('mb_strlen'))
+      $len = mb_strlen($s);
+    else
+      $len = strlen($s);          
+
+    for ($i=0; $i<$len; $i++) {
       if ( ($s[$i]!=$old1) || ($s[$i]!=$old2) ) {
         //echo "[$i] = '".$s[$i]."'\n";
         $AQuestion .= $s[$i];
@@ -79,7 +87,7 @@
     // split sentence to words
     // FIXME: add [ and ]
     // FIXME: split by ' in nonenglish languages, currently removed
-    $sentence = split("[ <>|?=,\".;:(){}/\\`~!@#$%^&*_+-]+", $AQuestion);
+    $sentence = @split("[ <>|?=,\".;:(){}/\\`~!@#$%^&*_+-]+", $AQuestion);
     if ($sentence[0]=='')
       $sentence = array_splice($sentence,1,count($sentence));
     if ( (count($sentence) > 0) && ($sentence[count($sentence)-1]=='') )
