@@ -79,13 +79,12 @@
 
       /*
       TODO:
-      - vzdialene cistenie lurker logov na heslo alebo tak nejak
-      - rss feed for recent changes in topic user improvements
-      - something for cleaning up lurker files from web, not just via ftp
-      - database of capital cities and countries? or geographic AI
+      - "ass" is recognized as gibberish words because it repeats 66% of its contents, disable gibberish recognition for common short words (ass, too, see, bee, ...) or lower threshold for too short words
+      - use edict for data to drknow
+      - if user agent looks like from real user, use fisher when user visit the page
+      - use better randomness in dumb, simply prevent him to repeat same dumb question too often
       - learn it few course words
       - add to drknow: "just tell me everything you know about fish."
-      - 
       
       Later:
       - use eval class from phpclassess once their stupid site start working

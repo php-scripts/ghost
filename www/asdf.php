@@ -3,7 +3,10 @@
   
   function ghostAsdfAsk($question,$language) {
     // detect gibberish words by counting occurances of characters in single words questions
-    $question = mb_strtolower($question,'utf8');
+    if (function_exists(mb_strtolower))
+      $question = mb_strtolower($question,'utf8');
+    else
+      $question = strtolower($question);
     
     // multiple words means regular sentence
     if (strstr($question,' '))
