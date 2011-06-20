@@ -1,3 +1,6 @@
+<div class="feedback"><span class="name">dvh</span>I just added Google +1 button, I wonder what is it good for :)</div>
+<div class="feedback"><span class="name">dvh</span>Kus vedľa, otázky na ghosta do toho políčka úplne hore</div>
+<div class="feedback"><span class="name">am</span>dobre  rano</div>
 <div class="feedback"><span class="name">dvh</span>yeah, but he recognize &quot;ass&quot; as gibberish word because it repeats most of its content &quot;ss&quot; in just 3 letters, I have to tune it a little bit...</div>
 <div class="feedback"><span class="name"></span>i liked it</div>
 <div class="feedback"><span class="name">dvh</span>ghost now can identify gibberish words like &quot;jjkgjgjgjkbj&quot; or &quot;gjgjghjgj&quot;, he do so by analyzing occurance of characters in single word questions</div>
