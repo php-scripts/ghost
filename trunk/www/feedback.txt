@@ -1,3 +1,5 @@
+<div class="feedback"><span class="name"></span>cool site!</div>
+<div class="feedback"><span class="name">dvh</span>Webpage should be now displayed better on small screens (mobile)</div>
 <div class="feedback"><span class="name">dvh</span>I just added Google +1 button, I wonder what is it good for :)</div>
 <div class="feedback"><span class="name">dvh</span>Kus vedľa, otázky na ghosta do toho políčka úplne hore</div>
 <div class="feedback"><span class="name">am</span>dobre  rano</div>

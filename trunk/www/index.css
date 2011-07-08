@@ -110,7 +110,7 @@ div.feedbackform {
 }
 
 div.feedbackform input[type="text"] {
-  width: 100%; 
+  width: 100%;                                                                            
 }
 
 div.middle {
@@ -142,3 +142,18 @@ span.name {
   font-weight: bold;
   margin-right: 1ex;
 }
+
+@media only screen and (max-width: 600px) {
+  #logo {
+    display: none;
+    margin: 0 0 0 0;
+  }
+  input[type="text"] {
+    width: auto;
+  }
+  div.feedbackform {
+    display: none;
+    width: 50px;
+  }
+}
+
