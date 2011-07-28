@@ -3,7 +3,7 @@
   
   function ghostAsdfAsk($question,$language) {
     // detect gibberish words by counting occurances of characters in single words questions
-    if (function_exists(mb_strtolower))
+    if (function_exists('mb_strtolower'))
       $question = mb_strtolower($question,'utf8');
     else
       $question = strtolower($question);
@@ -14,7 +14,10 @@
       
     // count characters
     $c = array();
-    for ($i=0;$i<mb_strlen($question);$i++) {
+    $qlen = strlen($question); 
+    if (function_exists('mb_strlen'))
+      $qlen = mb_strlen($question);
+    for ($i=0;$i<$qlen;$i++) {
       $z = $question[$i];
       if (@!$c[$z])
         $c[$z] = 0;
