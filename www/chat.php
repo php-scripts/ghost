@@ -21,6 +21,7 @@
     require_once "eval.php";
     require_once "capital.php";
     require_once "asdf.php";
+    require_once "antispam.php";
 
     // split question to words
     $sentence = ghostSentence($question);
@@ -34,6 +35,13 @@
     $language = ghostLanguage();
 
     // ask various AI one by one
+    
+    // detect spam
+    if (isSpam($question)) {
+      logSpam($question);
+      $question = '[SPAM REMOVED]';
+      $answer = 'Sorry but your question was detected to be spam!';
+    }
 
     // first is just a logger
     if (empty($answer)) $answer = ghostLurkerAsk('human: '.$question,$language);

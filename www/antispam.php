@@ -1,0 +1,31 @@
+<?php
+  // antispam detection
+  
+  function isSpam($AQuestion) {
+    // return true if questions seems to be spam
+    $AQuestion = strtolower($AQuestion);
+
+    // tinychat spam
+    if (strstr($AQuestion,'tinychat'))
+      return true;
+
+    // .com spam
+    if (strstr($AQuestion,'.com'))
+      return true;
+
+    // ban by IP address
+    
+    // no spam
+    return false;    
+  }
+  
+  function logSpam($AQuestion) {
+    // log spammer's IP address
+    $ban = file_get_contents('antispam.log');
+    $ban .= 'IP='.$_SERVER["REMOTE_ADDR"]." UA=".$_SERVER["HTTP_USER_AGENT"]." REF=".$_SERVER["HTTP_REFERER"]." Q=$AQuestion\n";
+    file_put_contents('antispam.log',$ban);
+  }
+  
+  // if (isSpam('hello tinychat.com/asdf')) echo 'SPAM'; else echo "not spam";
+  
+?>
