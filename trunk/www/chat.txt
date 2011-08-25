@@ -1,39 +1,35 @@
-<div class="question">fvdfdsfdfdsfsdfdf</div>
-<div class="answer">Word 'fvdfdsfdfdsfsdfdf' does not look like real word to me<a class="improve" title="Click to improve answer" href="improve.php?lang=en&question=fvdfdsfdfdsfsdfdf&answer=Word 'fvdfdsfdfdsfsdfdf' does not look like real word to me">&#9997;</a></div>
-<div class="question">wdwedewdew</div>
-<div class="answer">Stop talking 'wdwedewdew' gibberish<a class="improve" title="Click to improve answer" href="improve.php?lang=en&question=wdwedewdew&answer=Stop talking 'wdwedewdew' gibberish">&#9997;</a></div>
-<div class="question">vbvbnbvn</div>
-<div class="answer">Stop talking 'vbvbnbvn' gibberish<a class="improve" title="Click to improve answer" href="improve.php?lang=en&question=vbvbnbvn&answer=Stop talking 'vbvbnbvn' gibberish">&#9997;</a></div>
-<div class="question">yo</div>
-<div class="answer">hmmm<a class="improve" title="Click to improve answer" href="improve.php?lang=en&question=yo&answer=hmmm">&#9997;</a></div>
-<div class="question">FAREWELL HORE</div>
-<div class="answer">Cya motha FUCKA<a class="improve" title="Click to improve answer" href="improve.php?lang=en&question=FAREWELL HORE&answer=Cya motha FUCKA">&#9997;</a></div>
-<div class="question">WHOU</div>
-<div class="answer">I R GHOST<a class="improve" title="Click to improve answer" href="improve.php?lang=en&question=WHOU&answer=I R GHOST">&#9997;</a></div>
-<div class="question">WHOU</div>
-<div class="answer">ok<a class="improve" title="Click to improve answer" href="improve.php?lang=en&question=WHOU&answer=ok">&#9997;</a></div>
-<div class="question">hmm</div>
-<div class="answer">ehm<a class="improve" title="Click to improve answer" href="improve.php?lang=en&question=hmm&answer=ehm">&#9997;</a></div>
-<div class="question">FAREWELL HORE</div>
-<div class="answer">I'm affraid this conversation is over<a class="improve" title="Click to improve answer" href="improve.php?lang=en&question=FAREWELL HORE&answer=I'm affraid this conversation is over">&#9997;</a></div>
-<div class="question">farewell</div>
-<div class="answer">I'm affraid this conversation is over<a class="improve" title="Click to improve answer" href="improve.php?lang=en&question=farewell&answer=I'm affraid this conversation is over">&#9997;</a></div>
-<div class="question">What about our love ?</div>
-<div class="answer">well<a class="improve" title="Click to improve answer" href="improve.php?lang=en&question=What about our love ?&answer=well">&#9997;</a></div>
-<div class="question">love</div>
-<div class="answer">well<a class="improve" title="Click to improve answer" href="improve.php?lang=en&question=love&answer=well">&#9997;</a></div>
-<div class="question">You're unpolite</div>
-<div class="answer">ok, let's change the topic, what should we talk about<a class="improve" title="Click to improve answer" href="improve.php?lang=en&question=You're unpolite&answer=ok, let's change the topic, what should we talk about">&#9997;</a></div>
-<div class="question">WHY ,</div>
-<div class="answer">because<a class="improve" title="Click to improve answer" href="improve.php?lang=en&question=WHY ,&answer=because">&#9997;</a></div>
-<div class="question">you're a motherfucker</div>
-<div class="answer">be polite! no course words please<a class="improve" title="Click to improve answer" href="improve.php?lang=en&question=you're a motherfucker&answer=be polite! no course words please">&#9997;</a></div>
-<div class="question">bitch</div>
-<div class="answer">you are talking gibberish<a class="improve" title="Click to improve answer" href="improve.php?lang=en&question=bitch&answer=you are talking gibberish">&#9997;</a></div>
-<div class="question">I'm kidding</div>
-<div class="answer">I hope I didn't insulted you<a class="improve" title="Click to improve answer" href="improve.php?lang=en&question=I'm kidding&answer=I hope I didn't insulted you">&#9997;</a></div>
-<div class="question">hore</div>
-<div class="answer">I'm affraid this conversation is over<a class="improve" title="Click to improve answer" href="improve.php?lang=en&question=hore&answer=I'm affraid this conversation is over">&#9997;</a></div>
-<div class="question">BYE beach</div>
-<div class="answer">bye<a class="improve" title="Click to improve answer" href="improve.php?lang=en&question=BYE beach&answer=bye">&#9997;</a></div>
-<div class="question">tu  ferme ta bouche</div>
+<div class="question">hello</div>
+<div class="answer">hi<a class="improve" title="Click to improve answer" href="improve.php?lang=en&question=hello&answer=hi">&#9997;</a></div>
+<div class="question">[SPAM REMOVED]</div>
+<div class="answer">Sorry but your question was detected to be spam!<a class="improve" title="Click to improve answer" href="improve.php?lang=sk&question=[SPAM REMOVED]&answer=Sorry but your question was detected to be spam!">&#9997;</a></div>
+<div class="question">Hello</div>
+<div class="answer">hi<a class="improve" title="Click to improve answer" href="improve.php?lang=en&question=Hello&answer=hi">&#9997;</a></div>
+<div class="question">Hello?</div>
+<div class="answer">hi<a class="improve" title="Click to improve answer" href="improve.php?lang=en&question=Hello?&answer=hi">&#9997;</a></div>
+<div class="question">thats nice place</div>
+<div class="answer">zzz...<a class="improve" title="Click to improve answer" href="improve.php?lang=en&question=thats nice place&answer=zzz...">&#9997;</a></div>
+<div class="question">where are you from?</div>
+<div class="answer">i am from slovakia, central europe<a class="improve" title="Click to improve answer" href="improve.php?lang=en&question=where are you from?&answer=i am from slovakia, central europe">&#9997;</a></div>
+<div class="question">where you from?</div>
+<div class="answer">stop kidding me<a class="improve" title="Click to improve answer" href="improve.php?lang=en&question=where you from?&answer=stop kidding me">&#9997;</a></div>
+<div class="question">are you muslim?</div>
+<div class="answer">don't be ridiculous<a class="improve" title="Click to improve answer" href="improve.php?lang=en&question=are you muslim?&answer=don't be ridiculous">&#9997;</a></div>
+<div class="question">what is your favourite colour?</div>
+<div class="answer">black perhaps<a class="improve" title="Click to improve answer" href="improve.php?lang=en&question=what is your favourite colour?&answer=black perhaps">&#9997;</a></div>
+<div class="question">do you like birds?</div>
+<div class="answer">Sometimes<a class="improve" title="Click to improve answer" href="improve.php?lang=en&question=do you like birds?&answer=Sometimes">&#9997;</a></div>
+<div class="question">i'm sorry</div>
+<div class="answer">stop kidding me<a class="improve" title="Click to improve answer" href="improve.php?lang=en&question=i'm sorry&answer=stop kidding me">&#9997;</a></div>
+<div class="question">what happen?</div>
+<div class="answer">you know what, you starting to bore me a little...<a class="improve" title="Click to improve answer" href="improve.php?lang=en&question=what happen?&answer=you know what, you starting to bore me a little...">&#9997;</a></div>
+<div class="question">idk</div>
+<div class="answer">stop kidding me<a class="improve" title="Click to improve answer" href="improve.php?lang=en&question=idk&answer=stop kidding me">&#9997;</a></div>
+<div class="question">wanna play?</div>
+<div class="answer">what can I say to that...<a class="improve" title="Click to improve answer" href="improve.php?lang=en&question=wanna play?&answer=what can I say to that...">&#9997;</a></div>
+<div class="question">nice</div>
+<div class="answer">thanks<a class="improve" title="Click to improve answer" href="improve.php?lang=en&question=nice&answer=thanks">&#9997;</a></div>
+<div class="question">how old are you?</div>
+<div class="answer">I am 7 years old<a class="improve" title="Click to improve answer" href="improve.php?lang=en&question=how old are you?&answer=I am 7 years old">&#9997;</a></div>
+<div class="question">how are u?</div>
+<div class="answer">ok<a class="improve" title="Click to improve answer" href="improve.php?lang=en&question=how are u?&answer=ok">&#9997;</a></div>
+<div class="question">hello</div>
