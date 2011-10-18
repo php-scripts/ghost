@@ -1,3 +1,5 @@
+<div class="feedback"><span class="name">dvh</span>?</div>
+<div class="feedback"><span class="name"></span>cv </div>
 <div class="feedback"><span class="name">dvh</span>Ghost still need some improvements to be able to talk to retards...</div>
 <div class="feedback"><span class="name">dvh</span>Thanks for your insightful feedbacks.</div>
 <div class="feedback"><span class="name"></span>wa<br /><br /></div>
@@ -6,5 +8,3 @@
 <div class="feedback"><span class="name">dvh</span>lol, gibberish detection does not work in feedback form :D</div>
 <div class="feedback"><span class="name">212324324</span>dvdvcv2434</div>
 <div class="feedback"><span class="name">dvh</span>Great, now he can cat-speak :)</div>
-<div class="feedback"><span class="name"></span>cool site!</div>
-<div class="feedback"><span class="name">dvh</span>Webpage should be now displayed better on small screens (mobile)</div>
