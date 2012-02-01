@@ -1137,3 +1137,44 @@ Pivo nemame
 *pivo
 [TOPIC END]
 
+[TOPIC]
+cau
+maj sa
+*tak cau
+[TOPIC END]
+
+[TOPIC]
+ved hovorim...
+*no hovor
+[TOPIC END]
+
+[TOPIC]
+tak to som...
+veru...
+*tak to si
+[TOPIC END]
+
+[TOPIC]
+budem tu na teba cakat
+budem tu, ako kazdy den
+stale budem tu
+*co budes robit zajtra
+[TOPIC END]
+
+[TOPIC]
+Neviem kto to je
+Netuším kto
+^kto je
+[TOPIC END]
+
+[TOPIC]
+Ja neklamem
+Ja väčšinou neklamem
+*neklam
+[TOPIC END]
+
+[TOPIC]
+Nebláznim, ty blázniš, sa tu rozprávaš sám so sebou...
+*blaznis
+[TOPIC END]
+
