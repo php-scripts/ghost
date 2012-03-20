@@ -1,7 +1,10 @@
+<div class="feedback"><span class="name">dvh</span>Right now I'm attending free online classes Natural Language Processing at Stanford university (https://www.coursera.org/nlp/class) so I hope this will further boost the development of ghost.</div>
+<div class="feedback"><span class="name">dvh</span>Lol, some untranslated token $city; i fix it right away :D</div>
+<div class="feedback"><span class="name">dvh</span>VDL žije, momentálne cca v6.0 ale už to nepublikujem, používam len pre moju potrebu. Napr. tu som sa hral s bootom (obyč. sata disk, shitný intel atom) http://www.youtube.com/watch?v=zE_QRZwNGOs</div>
+<div class="feedback"><span class="name">Bedňa</span>Čau, a čo VDL?</div>
 <div class="feedback"><span class="name">dvh</span>Answer &quot;take them&quot; to &quot;ok&quot; must be some relic from time when I was using ghost as a part of looting bot in certain MMORPG :D</div>
 <div class="feedback"><span class="name">Matt</span>Lol</div>
 <div class="feedback"><span class="name">dvh</span>LOL. Word &quot;message&quot; ends with &quot;age&quot; thus ghost thought you are asking his age.</div>
 <div class="feedback"><span class="name">dvh</span>Ghost still need some improvements to be able to talk to retards...</div>
 <div class="feedback"><span class="name">dvh</span>Thanks for your insightful feedbacks.</div>
 <div class="feedback"><span class="name"></span>Hiya</div>
-<div class="feedback"><span class="name">dvh</span>damn spambots found this site :( gotta do some countermeasure asap</div>
