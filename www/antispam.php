@@ -13,6 +13,14 @@
     if (strstr($AQuestion,'.com'))
       return true;
 
+    // http spam
+    if (strstr($AQuestion,'http'))
+      return true;
+
+    // bit.ly spam
+    if (strstr($AQuestion,'bit.ly'))
+      return true;
+
     // ban by IP address
     
     // no spam
