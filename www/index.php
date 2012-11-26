@@ -28,7 +28,7 @@
     <!-- char form -->
     <form action="chat.php" method="get">
       <?php
-        require_once "sentence.php";
+        require_once "next/common.php";
         // detect language    
         $language = ghostLanguage();
         if ($language == 'en') {
@@ -50,7 +50,11 @@
     <div class="feedbackform">
       <form action="feedback.php" method="post">
         <div class="middle">
-          Feedback
+          Feedback <!-- Place this tag in your head or just before your close body tag -->
+<script type="text/javascript" src="http://apis.google.com/js/plusone.js"></script>
+
+<!-- Place this tag where you want the +1 button to render -->
+<g:plusone size="small"></g:plusone>
         </div>
         <div class="name">
           Name: <input id="name" type="text" name="name" value="anonymous"/>
@@ -79,18 +83,29 @@
 
       /*
       TODO:
-      - "ass" is recognized as gibberish words because it repeats 66% of its contents, disable gibberish recognition for common short words (ass, too, see, bee, ...) or lower threshold for too short words
-      - use edict for data to drknow
-      - if user agent looks like from real user, use fisher when user visit the page
-      - use better randomness in dumb, simply prevent him to repeat same dumb question too often
+      - rss feed for recent changes in topic user improvements
+      - something for cleaning up lurker files from web, not just via ftp
+      - database of capital cities and countries? or geographic AI
       - learn it few course words
       - add to drknow: "just tell me everything you know about fish."
+      - 
       
       Later:
       - use eval class from phpclassess once their stupid site start working
       - for performance reasons, I should append new answers to the end of file or something (or maybe just use mysql like other sane people)
       */
+
+    if ($_SERVER["REMOTE_ADDR"] != "88.212.32.127") {
+        $fp = fopen('log.txt', 'a');
+        fwrite($fp,"\n[".date(DATE_RFC822)."]\n");
+        fwrite($fp,$_SERVER["REMOTE_ADDR"]."\n");
+        fwrite($fp,$_SERVER["HTTP_USER_AGENT"]."\n");
+        fwrite($fp,$_SERVER["HTTP_REFERER"]."\n");
+        fclose($fp);
+    }
+
     ?>  
+
     
 	</body>
 </html>

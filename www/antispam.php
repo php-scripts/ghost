@@ -22,6 +22,8 @@
       return true;
 
     // ban by IP address
+    if ($_SERVER["REMOTE_ADDR"] == "1.2.3.4")
+      return true;
     
     // no spam
     return false;    

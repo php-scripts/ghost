@@ -1,10 +1,10 @@
-<div class="feedback"><span class="name">nikof</span>ryte<br /></div>
-<div class="feedback"><span class="name"></span>yu</div>
-<div class="feedback"><span class="name"></span>yu</div>
-<div class="feedback"><span class="name"></span>:D</div>
-<div class="feedback"><span class="name">dvh</span>Ghost does not speak bulgarian :(</div>
-<div class="feedback"><span class="name"></span>d</div>
-<div class="feedback"><span class="name">dvh</span>NLP classes completed successfully, I got 71.1% yay :D</div>
-<div class="feedback"><span class="name">dvh</span>Right now I'm attending free online classes Natural Language Processing at Stanford university (https://www.coursera.org/nlp/class) so I hope this will further boost the development of ghost.</div>
-<div class="feedback"><span class="name">dvh</span>Lol, some untranslated token $city; i fix it right away :D</div>
-<div class="feedback"><span class="name">dvh</span>VDL žije, momentálne cca v6.0 ale už to nepublikujem, používam len pre moju potrebu. Napr. tu som sa hral s bootom (obyč. sata disk, shitný intel atom) http://www.youtube.com/watch?v=zE_QRZwNGOs</div>
+<div class="feedback"><span class="name">crasy</span>how about the style</div>
+<div class="feedback"><span class="name">crasy</span>ok<br /></div>
+<div class="feedback"><span class="name">dvh</span>Not yet, I'll put it online in monday perhaps</div>
+<div class="feedback"><span class="name">crasy</span>do you have a demo for your probabilistic engine</div>
+<div class="feedback"><span class="name">dvh</span>I'll think about those. Right now I'm finishing new probabilistic engine so maybe after that...</div>
+<div class="feedback"><span class="name">crasy</span>- user's own chat log $_SESSION <br />- separation between chat logs an feedback EX: jquery<br />- more modern template <br />- make chat bot save the choosed language.  </div>
+<div class="feedback"><span class="name">dvh</span>What improvements do UI need?</div>
+<div class="feedback"><span class="name">crasy</span>I more depth in the script you done , more I see that you have done a good job,<br />you just need to inprove the ui , if you need help , im here</div>
+<div class="feedback"><span class="name">dvh</span>Because at a time, it (the name) was available name on sourceforge and also on one webchat where I was testing it.</div>
+<div class="feedback"><span class="name">crasy</span>why you choose ghost as chat bot name</div>
