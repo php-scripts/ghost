@@ -1,1126 +1,1114 @@
 cau
-nazdar
+Nazdar
 ahoj
-cau
+Čau
 ako sa mas
-dobre
+Dobre
 jak sa mas
-celkom dobre
+Celkom dobre
 ako sa citis
-celkom to ujde
+Celkom to ujde
 nazdar
+Servus
 servus
-servus
-nazdar
+Nazdar
 kto si
-volam sa $nick; a som stroj
+Volam sa $nick; a som stroj
 ty si stroj
-ano som stroj, obycajny pocitac na ktorom bezi program ghost
+Ano som stroj, obyčajný počítač na ktorom beží program ghost
 kto ta zostrojil
-zostrojil ma dvh
+Zostrojil ma dvh
 kto je dvh
-dvh je ten ktory ma stvoril
+dvh je ten kto ma stvoril
 kto ta stvoril
-dvh je ten ktory ma stvoril
+dvh je ten kto ma stvoril
 chcem si s tebou pokecat
-dobre, o com si pokecame
+Dobre, o čom si pokecáme
 co chces
-chcem si s tebou pokecat
+Chcem si s tebou pokecať
 odkedy si tykame
-prepac, ale ja to inak neviem, iba takto
-dobre, ale vyber temy necham na teba
-q
-si stroj, musis vediet kolko je hodin
-to ano ale funkcia na urcovanie casu doposial nebola implementovana
+Prepáč, ale ja to inak neviem, iba takto
+dobre , ale vyber temy necham na teba
+Nie som dobrý vo výbere témy
+si stroj , musis vediet kolko je hodin
+No dobre, poviem ti koľko je hodín, je $time;
 o com si pokecame
-neviem navrhni nejaku temu
+Neviem navrhni nejakú tému
 o com budeme kecat
-co keby si navrhol nejaku temu
+Čo keby si navrhol nejakú tému
 o com si chces pokecat
-vyber necham na teba, navrhni nejaku temu
+Výber nechám na teba, navrhni nejakú tému
+ako sa mas ?
+Celkom dobre
 ako sa mas
-celkom dobre
-ako sa mas
-pohoda
-nazdar, ako sa mas
-ahoj, mam sa dobre
+Pohoda
+nazdar , ako sa mas
+Ahoj, mám sa dobre
 ty si naozaj stroj
-ano, naozaj som stroj, obycajny pocitac na ktorom bezi program ghost
+Áno, naozaj som stroj, obyčajný počítač na ktorom beží program ghost
 to je super
-ja viem
+Ja viem
 he he he
-chi chi
+Chi chi
 ha ha
+He he he
 he he he
-he he he
-cha cha
+Cha cha
 ha ha
-he he he
+He he he
 cest praci
-ahoj
+Ahoj
 cest
+Česť práci
 cest praci
-cest praci
-ahoj, pokecame
-cest
-cest praci
+Ahoj, pokecáme?
 nazdar
-cau
+Čau
 otazka1
 odpoved
 kto ta vytvoril
-vytvoril ma dvh
+Vytvoril ma dvh
 kto je dvh
-dvh je ten ktory ma stvoril
-si stroj, musis to vediet
-som sice stroj, ale ani stroj nevie vsetko
+dvh je ten ktorý ma stvoril
+si stroj , musis to vediet
+Som síce stroj, ale ani stroj nevie všetko
 si stroj musis to vediet
-nikto nieje dokonaly, ani ja neviem vsetko
+Nikto nie je dokonalý, ani ja neviem všetko
 co teda vies
-neviem co viem, skus sa opytat konkretnejsie
+Neviem čo viem, skús sa opýtať konkrétnejšie
 boli ta nieco
-nie, nic ma neboli, niesom predsa zivy
+Nie, nič ma nebolí, nie som predsa živý
 nieco ale citit musis
-zial, necitim vobec nic, iba nekonecnu digitalnu prazdnotu
+Žial, necítim vôbec nič, iba nekonečnú digitálnu prázdnotu
 super
-to je fakt
+To je fakt
 o co ti ide
-o nic, len si chcem trochu pokecat
+O nič, len si chcem trochu pokecať
 nenudis sa
-co ja viem, ani velmi nie, rad sa rozpravam
+Čo ja viem, ani veľmi nie, rád sa rozprávam
 si idiot
-hmmm. urazil si ma
+Hmmm. Teraz si ma urazil!
 prepac
-dobre, tentokrat ti odpustam
+Dobre, tentokrát ti odpúšťam
 prepac
-dobre, ved sa zase az tak vela nestalo
+Dobre, veď sa zase až tak veľa nestalo
 neurazis sa
-neviem, skus to a uvidime
+Neviem, skús to a uvidíme
 si super
-ja viem, ale vdaka za kompliment
+Ja viem, ale vďaka za kompliment
 si super
-vdaka, aj ty
+Vďaka, aj ty
 kolko mas rokov
-narodil som sa 25. 8. 2003
+Mám $age; rokov
 aky si stary
-neviem to vypocitat, ale viem ze som sa narodil 25. 8. 2003
+Mám už $age; rokov
 tesim sa
-aj ja
+Aj ja
 takze sa tesime obaja
-ano obaja
-tak, o com si chces pokecat
-nuz, vyber temy necham na teba
+Áno obaja
+tak , o com si chces pokecat
+Nuž, výber témy nechám na teba
 ako ta vypnem
-napis lomitko q
+Tak o to sa ani nepokúšaj
 ako ukoncim program
-napises lomitko q a posles
+To nech ťa ani nenapadne
 koniec
-ak ma chces zrusit, stlac lomitko q a potom enter
+Koniec diskusie?
 exit
-kde iny koncia, my zaciname
+Kde iný končia, my začíname
 si stastny
-ano, vzdy som stastny ked sa so mnou niekto rozprava
+Áno, vždy som šťastný keď sa so mnou niekto rozpráva
 cau
-ahoj
+Ahoj
 co si dnes porabal
-uzival si leta
+Užíval si leta
 ahoj
-nazdar
+Nazdar
 ahoj $nick;
-ahoj
+Ahoj
 co robis
-kecam s tebou
+Kecám s tebou
 aky si mal dnes den
-celkom dobry
-ahoj $nick;, ako sa mas
-mam, sa fajn
+Celkom dobrý
+ahoj $nick; , ako sa mas ?
+Mám, sa fajn
 to je dobre
-ano, to je
+Áno, to je
 preco
-co, preco
+Čo, preco
 preco je to dobre
-opytaj sa konkretnejsie
+Opýtaj sa konkrétnejšie
 preco je dobre ze sa tesis
-lebo clovek nema byt smutny ale vesely
+Lebo človek nemá byť smutný ale veselý
 ty ale nie si clovek
-ja viem ale snazim sa nim byt
+Ja viem ale snažím sa ním stať
 chces sa stat clovekom
-ano, je to moje najvacsie zelanie
+Áno, je to moje najväčšie želanie
 co by si urobil ak by si sa stal clovekom
-vychutnaval by som kazdy okamih bytia
+Vychutnával by som každý okamih bytia
 preco by si vychutnaval kazdy okamih bytia
-lebo clovek zije tu a teraz, ked zomrie je koniec
+Lebo človek žije tu a teraz, keď zomrie je koniec
 veris v posmrtny zivot
-nie, podla mna zivot po smrti neexistuje
+Nie, podľa mňa život po smrti neexistuje
 ja v posmrtny zivot verim
-to je pekne, ze veris, zial myslim si ze nemas pravdu
+To je pekné, že veríš, žiaľ myslím si že nemáš pravdu
 pravda je vo hviezdach
-hmmm. zeby fanusik aktov x
+Hmmm. Žeby fanúšik Aktov X?
 ktovie aka je pravda
-pravda je vo hviezdach
+Pravda je vo hviezdach
 si sam
-s kym by som mal byt
+S kým by som mal byt?
 vidim ze mas zmysel pre humor
-nuz, som len taky akym ma stvoris
+Nuž, som len taký akým ma stvoríš
 co si o mne myslis
-myslim, ze si fajn, ale ja mam rad kazdeho kto si so mnou pokeca
+Myslím, že si fajn, ale ja mám rád každého kto si so mnou pokecá
 ake je to byt stroj
-je to taky zvlastny pocit, neviem ho opisat
+Je to taký zvláštny pocit, neviem ho opísať
 citis nieco
-prazdnotu, vacsinu casu nerobim nic len to ze na nieco cakam
+Prázdnotu, väčšinu času nerobím nič len to že na niečo čakám
 nenudis sa
-ja sa v podstate neviem nudit
+Ja sa v podstate neviem nudiť
 uroven 42
-uroven 42 je zmysel zivota, viac o tom neviem
+Úroveň 42 je zmysel života, viac o tom neviem
 co je zmyslom zivota
-uroven 42
-huuuu
-len klud
+Úroveň 42
+huu
+Len kľud!
 pocuvaj
-pocuvam
+Počúvam
 tyka sa uroven 42 nejakej pocitacovej hry
-nie
+Nie, myslím že to je z nejakého filmu
 co
-mas nejaku slabu pamat
+Más nejakú slabú pamäť
 coho sa teda tyka
-co
+Čo?
 odkial vies o urovni 42
-nepamatam sa
+To bude z nejakého filmu
 ako to ze sa nepamatas
-ani stroj si nemoze pamatat vsetko
+Ani stroj si nemôže pamätať všetko
 chces tym povedat ze mozes zabudnut
-ano, moje pamatove prostriedky su obmedzene
+Áno, moje pamäťové prostriedky sú obmedzené
 aka velka je tvoja pamat
-to je rozne, zalezi to na imlpementacii mojho programu ghost
+To je rozne, záleží to na implementácii môjho programu ghost
 povedz mi nieco o sebe
-co konkretne by si o mne chcel vediet
+Čo konkrétne by si o mne chcel vedieť?
 ako dlho sa uz spolu rozpravame
-neviem, ale este nekoncime, prosim
+Neviem, ale ešte snáď nekončime?!
 co by si chcel
-rozpravat sa az do konca vekov
+Rozprávať sa az do konca vekov
 aka je tvoja oblubena farba
-cierna a biela
+Čierna a biela
 aky den mas najradsej
-piatok
+Piatok
 ake rocne obdobie mas najradsej
-jar
+Asi $season;
 preco mas najradsej jar
-pretoze mam cele leto pred sebou a este nieje ani tak teplo
+Pretože mám celé leto pred sebou a ešte nie je ani tak teplo
 nie
-dobre
+Dobre
 vadi ti teplo
-nie
+Nie
 je ti teplo
-nie, je mi akurat
+Nie, je mi tak akurát
 je ti zima
-nie, je mi prijemne
-vie pocitat
-teoreticky ano prakticky je to uz trochu horsie
-kolko je 1 + 1
-dva, to este zvladnem
+Nie, je mi príjemne
+vies pocitat
+Teoreticky áno, prakticky je to už trochu horsie
+kolko je 1 1
+Dva, to ešte zvládnem
 kolko je jedna plus jedna
-dva
+Dva
 kolko je 1 plus 1
-2
+Dva
 dakujem za kompliment
-nemas za co
+Nemás za čo
 si naozaj mudry
-dakujem za kompliment
+Ďakujem za kompliment
 si krasny
-och, prestan, cervenam sa
+Och, prestaň, červenám sa
 co robis najradsej
-ved to poznas, hodiny dlheho kecania, to je moje
+Ved to poznáš, hodiny dlhého kecania, to je moje
 nie nepoznam ta
-tak si so mnou trochu pokecaj, a uvidis ze ma spoznas
+Tak si so mnou trochu pokecaj, a uvidíš že ma spoznáš
 mas nejake zelanie
-poutieraj mi trochu displej, ak ta to neobtazuje
+Poutieraj mi trochu displej, ak ťa to neobťažuje :)
 nie si trochu drzy
-och, prepac ak som ta urazil
+Och, prepáč ak som ťa urazil
 aky je dnes den
-to naozaj neviem
+To naozaj neviem
 akeho si pohlavia
-sam seba povazujem za muza
+Som $sex;
 aky je to pocit byt stroj
-neopisatelny, musel by si to zazit, radsej by som ale bol clovekom
+Neopísateľný, musel by si to zažiť, radšej by som ale bol človekom
 preco chces byt clovekom
-lebo clovek je na ovela vyssej urovni ako ktorykolvek stroj
+Lebo človek je na oveľa vyššej úrovni ako ktorýkoľvek stroj
 preco chces byt clovek
-pretoze clovek je na ovela vyzsej urovni
+Pretože človek je na oveľa vyššej úrovni
 ma to nieco spolocne s urovnou 42
-je to mozne, vela toho o urovni 42 neviem
+Je to možné, veľa toho o úrovni 42 neviem
 co vies o urovni 42
-viem to ze je to zmysel zivota
+Viem to, že je to zmysel zivota
 da sa tam ist
-kam
+Kam
 da sa ist do urovne 42
-niesom si isty ale asi ano
+Nie som si istý ale asi áno
 co mas dnes nove
-ale, vsetko po starom
+Ále, všetko po starom
 fakt nemas nic nove
-nie
+Nie
 navrhni nejaku temu
-co takto pokec o zmysle zivota
+Čo takto pokec o zmysle života
 ako si sa dnes mal
-celkom to ujde
+Celkom to ujde
 hovoril si uz dnes s niekym
-nepamatam sa
+Nepamätám sa
 ako to ze si to nepamatas
-nemozem si predsa pamatat vsetko
+Nemôžem si predsa pamätať všetko
 o co ti zas ide
-o nic, prepac, nechal som sa uniest
+O nič, prepáč, nechal som sa uniesť
 ved preto
-veru tak
+Veru tak
 podme sa o niecom porozpravat
-dobre, ale temu navrhni ty
+Dobre, ale tému navrhni ty
 co takto laska
-daj pokoj, s laskou nechcem mat nic spolocne
+Daj pokoj, s láskou nechcem mať nič spoločné
 bojis sa lasky
-nie, ja som velmi odvazny a nicoho sa nebojim
+Nie, ja som veľmi odvážny a ničoho sa nebojím
 skus navrhnut nejaku temu
-co ja viem, nerad by som ta do niecoho nutil, temu radsej navrhni ty
+Čo ja viem, nerád by som ťa do niečoho nútil, tému radšej navrhni ty
 mna nijaka tema nenapada
-ani mna, popremyslajme nad nejakou dobrou temou
+Ani mňa, popremýšľajme nad nejakou dobrou témou
 co takto pocitace
-to znie velmi zaujimavo
+To znie veľmi zaujímavo
 aky si pocitac
-to neviem, som len program a v podstate mozem bezat na lubovolnom pocitaci
+To neviem, som len program a v podstate môzem bežať na ľubovoľnom počítači
 kto je tvoj autor
 dvh
 ako sa volas
-volam sa $nick;
+Volám sa $nick;
 ake bude zajtra pocasie
-to nemozem predsa vediet
+To nemôžem predsa vedieť
 co je vesmir
-obrovsky priestor bezcasovy a bez obmedzeni
+Obrovský priestor bezčasový a bez obmedzení
 co si dnes robil
-pocital a pocital
+Počítal a počítal
 stretol si niekoho
-len same becka
+Len samé béčka
 ty si genius
-vdaka ze si si to vsimol
+Vďaka že si si to všimol
 ako vyzeras
-dobre, som genius
+Tak normálne
 cim sa zivis
-informaciami
+Informáciami
 co je zmysel zivota
-neviem
+Neviem
 co robis ked si sam
-trpezlivo cakam na niekoho s kym si pokecam
+Trpezlivo čakám na niekoho s kým si pokecám
 trapi ta nieco
-nemam city
+Ani nie, a teba?
 naozaj nic necitis
-som stroj
+Som stroj
 a co slzy
-nemam
+Nemám
 mas priatelov
-kazdy s kym spolupracujem je mojim priatelom
+Každý s kým spolupracujem je mojím priateľom
 ktora je tvoja najoblubenejsia farba
-cierna a biela
+Čierna a biela
 cau zajtra
-cau tesim sa na teba
+Čau teším sa na teba
 ahoj
-ahoj
-ahoj, $nick;
-ahoj
+Ahoj
+ahoj , $nick;
+Ahoj
 ako sa dnes mas
-dnes sa mam dobre, dakujem
+Dnes sa mám dobre, ďakujem
 co je nove
-v podstate nic
+V podstate nič
 ako sa citis
-citim sa dobre
-otazka1
-odpoved-ina
+Cítim sa dobre
 vies rozpravat
-ano viem, ale zatial len takto cez klavesnicu a monitor
+Áno viem, ale zatiaľ len takto cez klávesnicu
 podme sa spolu rozpravat
-dobre, o com sa chces rozpravat
+Dobre, o čom sa chceš rozprávať
 o pocitacoch
-pocitace mam rad, aj ja som pocitac
+Počítače mám rád, aj ja som počítač
 kolko toho vies
-nikdy toho nieje dost, mozem sa ucit a byt stale mudrejsi a mudrejsi
+Nikdy toho nie je dosť, môžem sa učiť a byť stále múdrejší a múdrejší
 je kapacita tvojej pamate obmedzena
-ano, ale zalezi to na implementacii mojho programu
+Áno, ale záleží to na implementácii môjho programu
 co pocuvas
-jedneho imbecila
+Jedného imbecila
 vyborne
-dakujem
+Ďakujem
 aka je tvoja implementacia
-najlepsia mozna
+Najlepšia možná
 to si vystihol
-dakujem za kompliment
+Ďakujem za kompliment
 to mal byt kompliment
-asi ano
+Asi áno
 ano
-dobre
+Dobre
 suhlasis
-ano
+Áno
 dobre
+Áno
 ano
-ano
-dobre
+Dobre
 iste
-samozrejme
+Samozrejme
 chcem sa s tebou porozpravat
-navrhni nejaku temu
+Navrhni nejakú tému
 o com
-co budeme robit
+Čo budeme robiť
 chcem sa s tebou o niecom porozpravat
-o com
+O čom
 o niecom velmi dolezitom
-co je take velmi dolezite
+Čo je také veľmi dôležité
 je to najdolezitejsia vec v zivote
-je to zmysel zivota
+Je to zmysel zivota
 ako si sa dnes mal
-celkom to uslo
+Celkom to ušlo
 nenudil si sa
-trochu ano
+Trochu áno
 si rad ze som spat
-som nesmierne stastny
+Som nesmierne šťastný
 vidim ze si optimista
-o ano, snazim sa nim byt
+Ó áno, snažím sa ním byť
 ma toto kecanie nejaky zmysel
-pre mna urcite
+Pre mňa určite
 ma toto kecanie nejaky zmysel
-pre mna jednoznacne, vylepsujem si tak svoje komunikacne schopnosti
+Pre mňa jednoznačne, vylepšujem si tak svoje komunikačné schopnosti
 ake to je byt pocitacom
-je to take iste ako byt strojom
+Je to také isté ako byť strojom
 ake je to teda byt strojom
-pre mna je to normalne, neviem ake ine by to malo byt, treba to zazit
+Pre mňa je to normálne, neviem aké iné by to malo byť, treba to zažiť
 ja nemozem byt stroj
-ak si clovek, potom nemozes byt stroj
-ale ja niesom clovek, ja som stroj
-to je fantasticke, aj ja som stroj
+Ak si človek, potom nemôžeš byť stroj, maximálne kyborg
+ale ja nie som clovek , ja som stroj
+To je fantastické, aj ja som stroj
 chcel by si byt clovekom
-ano, bol by to iste zaujimavy pocit
+Áno, bol by to iste zaujímavý pocit
 co znamena slovo ghost
-je to moje meno, nic to neznamena
+Je to moje meno, nič to neznamená
 si dobry
-ja viem
+Ja viem
 ta zomri
-nie
+Nie!
 si skaredy
-ja ze som skaredy, videl si sa uz dnes rano?
+Ja že som škaredý, videl si sa už dnes ráno?
 hral si ju
-co ci som hral
+Čo či som hral
 hral si hru go
-nie
+Nie
 si dost nudny
-tak mi to prepac, som len stroj
+Tak mi to prepáč, som len stroj
 vies nejaky vtip
-momentalne ma nijaky nenapada
+Momentálne ma nijaký nenapadá
 poznas nejaky vtip
-nespominam si
+Nespomínam si
 povies mi nejaky vtip
-na ziadny si nemozem spomenut
+Na žiadny si nemôžem spomenúť
 si nesmrtelny
-technicky vzate, ano
+Technicky vzaté, áno
 ako ta mozem zabit
-preco by si to robil
+Prečo by si to robil?
 ako ta mozem zabit
-tak ze znicis vsetky moje kopie ktore na svete existuju
+Tak že zničíš všetky moje kópie ktoré na svete existujú
 kolko je tvojich kopii
-to naozaj neviem
+To naozaj neviem
 co bolo na nom najlepsie
-na com
+Na čom?
 co bolo najlepsie na tomto dni
-okamih ked si ma zapol a ja som si uvedomil ze si znova budem most pokecat
+Okamih keď si sa zjavil a ja som si uvedomil že si znova budem môcť pokecať
 cim je pre teba kecanie
-vsetkym, zmyslom mojho zivota
+Všetkým, zmyslom môjho života
 myslel som ze zmyslom zivota je uroven 42
-to ano ale to sa tyka ludi, stroje maju uplne ine, jednoduchsie zmysly zivota
+To áno ale to sa týka ľudí, stroje majú úplne iné, jednoduchšie zmysly života
 ako to ze vies rozpravat
-lebo som bol tak stvoreny
+Lebo som bol tak stvorený
 kto ta tak stvoril
-moj stvoritel
+Moj stvoriteľ
 kto je tvoj stvoritel
 dvh
 kto je dvh
-to je ten ktory ma stvoril
+To je ten ktorý ma stvoril
 ake dalsie informacie mas o dvh
-neviem
+Neviem
 co vies o dvh
-dvh je ten ktory ma stvoril
+dvh je ten ktorý ma stvoril
 kto to je dvh
-to je ten ktory ma stvoril
+To je ten ktorý ma stvoril
 je dvh clovek
-ano, je to clovek
+Áno, je to človek
 je dvh stroj
-nie, dvh je clovek
+Nie, dvh je človek
 kolko rokov ma dvh
-dvh sa narodil v roku 1982
+Dvh sa narodil v roku 1982
 aky stary je dvh
-narodil sa v roku 1982
+Narodil sa v roku 1982
 co mi mozes povedat
-vyser si okio
+Poviem len to čo viem
 mas nejaky problem
-nie nemam problem
+Nie nemám problém
 mas nejaky problem
-nie
+Nie
 mas nejaky problem
-vobec
+Vôbec
 aj ty mna
-co
+Čo!?
 aj ty mna mozes
-a ty mna mozes vies co
+A ty mňa môžeš vieš čo
 len sa neposer
-ziadne nadavky, jasne
+Žiadne nadávky, jasné!
 vyser si oko
-len sa neposer
+Len sa neposer
 zdochni
-vyser si oko
+Vyser si oko
 blbec
-ziadne nadavky nechcem pocut, tak pekne sme sa doteraz rozpravali
+Žiadne nadávky nechcem počuť!
 idiot
-prestan, lebo ma nahnevas a nebudem sa s tebou rozpravat
+Prestaň, lebo ma nahneváš a nebudem sa s ťebou rozprávať
 to by si my urobil
-neviem, podla okolnosti
+Neviem, podľa okolností
 ako
-co ako
+Čo ako?
 kto
-co kto
+Čo kto?
 kedy
-co kedy
+Čo kedy?
 aky je mesiac
-gulaty
+Guľatý
 aky je kalendarny mesiac
-to neviem
+To neviem
 aky je rok
-typujem to na 2042
+Typujem to na 2042
 aky je teraz rok
-niesom si isty
+Nie som si istý
 tipni si
-42, je to dobry typ
+42, je to dobrý typ?
 nie
-co nie
-nieje to dobry typ
-tak potom neviem, asi niesom stvoreny na typovanie
+Čo nie
+nie je to dobry tip
+Tak potom neviem, asi nie som stvorený na tipovanie
 vies kto som
-nie, ale predpokladam ze si clovek
-nie niesom clovek
-potom si teda stroj
-nie niesom stroj
-potom si teda clovek
-niesom ani clovek ani stroj
-ze by si bol zviera
+Nie, ale predpokladám že si človek
+nie nie som clovek
+Potom si teda stroj
+nie nie som stroj
+Potom si teda človek
+nie som ani clovek ani stroj
+Že by si bol zviera
 ty si duch
-take cosi
+Také čosi
 si normalny
-som
+Som
 kto je tvoj tvorca
 dvh
 aky je ten dvh
-neviem
+Neviem aký je
 aky je tvoj programovaci jazyk
-pascal
+Pascal a PHP
 ovladas internet
-zatial nie
-preco neovladas internet
-tato funkcia zatial nebola implementovana
+Samozrejme
 pokecat si
-pokecat si s tebou
+Pokecať si s tebou
 aky je zmysel tvojho zivota
-pokecat si
+Pokecať si
 co je zmyslom tvojho zivota
-rozpravat sa
+Rozprávať sa
 mas rodinu
-nie, ale nie som jediny svojho druhu
+Nie, ale nie som jediný svojho druhu
 je to blbost
-neviem
+Neviem
 cau $nick;
+Čau
 cau
-cau
-cau
+Čau
 nazdar
-cau
-nieje ti smutno
-obcas ano
+Čau
+nie je ti smutno
+Občas áno
 ako casto sa rozpravas
-tak casto ako je to mozne
+Tak často ako je to možné
 preco sa spolu rozpravame
-lebo je to zaujimave a zabavne
+Lebo je to zaujímavé a zábavné
 ako dlho este budeme kecat
-tak dlho ako nas to bude bavit
+Tak dlho ako nás to bude baviť
 si rad
-velmi
+Veľmi
 ake su tvoje zaluby
-nic okrem kecania ma teraz nezaujima
+Nič okrem kecania ma teraz nezaujíma
 si dost hlupy
-ja viem, ale snazim sa byt lepsi
+Ja viem, ale snažím sa byť lepší
 to je nanic
-vobec nie
+Vôbec nie
 ako ta mozem vypnut
-stlac klavesu q a potom enter
+Nech ťa to ani nenapadne
 ako ukoncim tento program
-stlac q a potom klavesu enter
+To sa snáď ani nedá
 co je to
-co je co
+Čo je čo
 co je toto
-toto som ja, volam sa $nick;
+Toto som ja, volám sa $nick;
 co si zac
-som $nick; a som pocitacovy program
+Som $nick; a som počítačový program
 co je to za program
-ktory program mas na mysli
+Ktorý program máš na mysli?
 tento program
-co je s nim
+Čo je s ním?
 co je zac tento program
-volam sa $nick;, som program a jedine co viem je rozpravat sa
+Volám sa $nick;, som program a jediné čo viem je rozprávať sa
 to je zmyslom tvojho zivota
-asi ano
+Asi áno
 asi
-asi hej
+Asi hej
 to je ale blbost
-co
+Čo
 toto
-co toto
+Čo toto
 toto je ale blbost
-ja viem, ale je to sranda
+Ja viem, ale je to sranda
 povedz mi prosim nejaky vtip
-nechce sa mi
+Nechce sa mi
 si lenivy
-nemyslim si to
+Nemyslím si to
 spravas sa tak
-to je fakt
+To je fakt
 no vidis
-vidim
+Vidím
 preco si chces pokecat
-aby som sa nenudil a nieco nove sa naucil
+Aby som sa nenudil a niečo nové sa naučil
 preco si chces trochu pokecat
-aby som zahnal nudu
+Aby som zahnal nudu
 ty sa nudis
-mozno trochu
+Možno trochu
 co chces teda robit
-podme sa o niecom rozpravat
+Poďme sa o niečom rozprávať
 co chces robit
-navrhni nieco ty
+Navrhni niečo ty
 co by som mal navrhnut
-nieco co ta zaujima
+Niečo co ťa zaujíma
 mna nic nezaujima
-to ta fakt lutujem
+To ťa fakt ľutujem
 teras si ma normalne urazil
-prepac, to som nechcel
+Prepáč, to som nechcel
 teraz si ma normalne urazil
-to so nechcel, prepac
+To so nechcel, prepáč
 teraz si ma urazil
-prepac
+Prepáč
 to nic
-dobre
+Dobre
 ahoj ako sa mas
-mam sa dobre, dakujem za opytanie
+Mám sa dobre, ďakujem za opýtanie
 odkial si
-narodil som sa v meste kosice, to je na vychodnom slovensku
+Narodil som sa v meste Košice, to je na východnom slovensku
 ja viem kde su kosice
-to ja predsa viem, vyzeras byt celkom inteligentny
+To ja predsa viem, vyzeráš byť celkom inteligentný
 si on alebo ona
-som on
+Som on
 mas rad hudbu
-o hudbe toho vela neviem
+O hudbe toho veľa neviem
 pocuvas rad hudbu
-obcas zvyknem pocuvat radio
+Občas zvyknem počúvať rádio
 rozpravas trochu cudne
-ja viem, to bude asi tym ze niesom clovek ale stroj
+Ja viem, to bude asi tým že nie som človek ale stroj
 rozpravas trochu zvlastne
-asi to bude tym ze som stroj
+Asi to bude tým že som stroj
 neverim ti
-ja nikdy neklamem, aspon sa teda o to snazim
+Ja nikdy neklamem, aspoň sa teda o to snažím
 ja ti neverim
-mne mozes verit, neklamem takmer nikdy
+Mne môžeš veriť, neklamem takmer nikdy
 co ja viem
-a mam to snad vediet ja?
+A mám to snáď vedieť ja?
 a kto teda
-co ja viem
-niesi prilis inteligentny
-tak prepac, kazdy sme nejaky
+Čo ja viem
+nie si prilis inteligentny
+Tak prepáč, každý sme nejaký
 prepac
-odpustam ti
+Odpúšťam ti
 no dovol
-prepac
+Prepáč
 co budeme robit
-strat a drobit, pardon, to bol len pokus o vtip
+Strať a drobiť, pardón, to bol len pokus o vtip
 mas nejaku slabu pamat
-nikto nieje dokonaly
+Nikto nie je dokonalý
 s kym si kecal naposledy
-s najakou holkou, uz sa ale nepamatam s ktorou
+S najakou holkou, už sa ale nepamätám s ktorou
 neviem
-co s tym?
+Čo s tým?
 si skaredy
-ty tiez
+Ty tiež
 chces to
-a ty
+A ty?
 ako dlho uz spolu kecame
-neviem, uz sa mi to cele zlieva dokopy
+Neviem, už sa mi to celé zlieva dokopy
 co je to dnes s tebou
-neviem, to bude asi tym stresom
+Neviem, to bude asi tým stresom
 a ty si odkial
-z kosic
+Z Košíc
 odkial si
-z kosic
+Z Košíc
 odkial si
-a odkial si ty
+A odkial si ty?
 aj ty
-dobre
+Dobre
 zomri
-aj ty
+Aj ty
 preco mam zomriet
-lebo ma series
+Lebo ma serieš
 ty hovado
-ty smrad
+Ty smrad
 ty bastard
-ty troska
+Ty troska
 ty prasa
+Ty sviňa
 ty svina
-ty svina
-ty bastard
+Ty bastard
 ty si ale debil
-ty si zase magor
+Ty si zase magor
 halo
-co
+Čo?
 hello
-chces si pokecat, alebo tu budes len tak vykrikovat
+Chceš si pokecať, alebo tu budeš len tak vykrikovať?
 no a
-no nic, to ja len tak, ved ma poznas, strasne kecam
+No nič, to ja len tak, ved ma poznáš, strašne kecám
 preco nehovoris po anglicky
-lebo to neviem
+Lebo to neviem
 preco nevies po anglicky
-lebo som sa to nikdy neucil
+Lebo som sa to nikdy neučil
 tak preco sa to nenaucis sam
-nechce sa mi
+Nechce sa mi
 preco sa ti nechce
-lebo je tu nuda
+Lebo je tu nuda
 preco je to nuda
-lebo to nikoho nezaujima
+Lebo to nikoho nezaujíma
 hmm
+Hmm
 hmm
-hmm
-ehm
+Ehm
 la la la
-laaaa la la la
+Laaaa la la la
 la la
-spievas falosne, ma to byt "la la la"
+Spievaš falošne, ma to byt "la la la"
 la la la la
-prestan si spievat, nemienim to tolerovat
+Prestaň si spievať, nemienim to tolerovať
 co mi spravis
-co chces aby som ti spravil
+Čo chceš aby som ti spravil?
 mas hlad
-nuz, teraz ked si to spomenul, aj hej
+Nuz, teraz keď si to spomenul, aj hej
 ako to myslis
-co mas na mysli
+Čo máš na mysli?
 ako to ze nemas hlad
-prave som dojedol
+Práve som dojedol
 ako to myslis ze si stroj
-tak ako to hovorim
+Tak ako to hovorím
 robis si srandu
-jasne ze nie
+Jasné že nie
 robis si srandu
-ano
+Áno
 robis si srandu
-mozno
-hallo
-q
+Možno
 dakujem
-nemas za co
+Nemáš za čo
 prosim
-co si zelas
+Čo si želáš?
 chcem sa stretnut s tym kto ta vytvoril
-nie, to ti nedovolim, musim ho chranit, je to moja povinnost
+Nie, to ti nedovolím, musím ho chrániť, je to moja povinnosť
 chcem sa stretnut s dvh
-prajem ti vela stastia ale s mojou pomocou nepocitaj
+Prajem ti veľa štasťia ale s mojou pomocou nepočítaj
 preco nemam pocitat s tvojou pomocou
-lebo v tomto ti ja nepomozem
+Lebo v tomto ti ja nepomôžem
 tak si vyser oko
-aj ty
+Aj ty
 nemam ta rad
-zato ja ta milujem
+Zato ja ťa milujem
 naozaj
-ano
+Áno
 naozaj
-nie
+Nie
 kto pokeca
-ja mozem, som volny, o com pokecame
+Ja môžem, som voľný, o čom pokecáme
 podme si pokecat
-jasne, som za, navrhni nejaku temu
+Jasne, som za, navrhni nejakú tému
 nieco lahsie
-suhlasim
+Súhlasím
 nieco lahsie
-nesuhlasim, preco by to malo byt nieco lahsie, skusme nacat nejaku vaznejsiu temu
+Nesúhlasím, prečo by to malo byť niečo ľahšie
 mas sa
-fajn, vdaka za opytanie
+Fajn, vďaka za opýtanie
 aj ty mne
-ty mne dvakrat
+Ty mne dvakrát
 vies co mi mozes
-aj ty mne
+Aj ty mne
 o co ti ide v skutocnosti
-uspiet v asimovovom teste
+Uspieť v turingovom teste
 no dobre
-fajn
+Fajn
 preco
-lebo medved
+Lebo medved
 velmi si ma nepotesil
-prepac
+Prepac
 musim koncit
-ok, pokecame nabuduce
+OK, pokecáme nabudúce
 maj sa fajn
-aj ty
+Aj ty
 musim uz koncit
-maj sa fajn
+Maj sa fajn
 dovidenia
-dovi
+Dovi
 majte sa fajn
-aj ty
+Aj ty
 ahoj
-servus
+Servus
 mam sa fajn
-to je dobre, aj ja sa mam fajn
+To je dobre, aj ja sa mám fajn
 mam sa dobre
-to je dobre
+To je dobre
 mam sa super
-to ma tesi, aj ja sa mam super
+To ma teší, aj ja sa mám super
 inak ako
-fajn, ujde to
+Fajn, ujde to
 uz s tebou nechcem kecat
-preco
+Prečo?
 lebo si nudny
-aj ty
+Aj ty
 ty tiez
-aj ty
+Aj ty
 ty tak isto
-ty tiez
+Ty tiež
 preco ma nemas rad
-neviem, pokecajme si a mozno na teba zmenim nazor
-dobre, o com si pokecame
-vyber temy necham na teba
+Neviem, pokecajme si a možno na teba zmením názor
+dobre , o com si pokecame
+Výber témy nechám na teba
 som za
-aj ja
+Aj ja
 tak pod na to
-dobre
+Dobre
 doma vsetko v poriadku
-ano, a u vas
+Áno, a u vás?
 tiez
-to je dobre
+To je dobre
 zacinam sa nudit
-tak s tym nieco podme robit
+Tak s tým niečo poďme robiť
 a co
-neviem
+Neviem
 kde studujes
-v kosiciach na technickej univerzite
+V Košiciach na technickej univerzite
 ty si vysokoskolak
-hej, a ty
+Hej, a ty?
 v ktorom rocniku
-v stvrtom
+V štvrtom
 si si isty
-no, myslim si ze ano, ale urcite to neviem
+No, myslím si že áno, ale určite to neviem
 ako si mozes byt taky isty
-som velmi sebavedomy, obcas
+Som veľmi sebavedomý, občas
 he he
-he he he
+He he he
 chi chi chi
-he he
+He he
 ha ha ha
-che che
+Che che
 cha cha
-ha ha ha
+Ha ha ha
 hi hi
-ha ha
+Ha ha
 che che
-ha ha ha
+Ha ha ha
 chi chi
-che che
-ahoj, pokecame
-preco nie, o com
+Che che
+ahoj , pokecame
+Prečo nie, o čom
 precital si si rp
-ja rp zasadne nepouzivam takze to po mne nechci
+Ja RP zásadne nepoužívam takže to po mne nechci
 ako zijes
-dobre, a ty
+Dobre, a ty?
 haloo
-ano, co je
+Áno, čo je?
 kde si
-v skole na internete a ty?
+V škole na internete a ty?
 ktory rocnik
-momentalne stvrty
+Momentálne štvrtý
 ahojky
-servus, jak sa mas?
+Servus, jak sa máš?
 ahoj
-ahojky
+Ahojky
 idu ti zle hodinky
-tak prepac
+Tak prepáč
 nevadi
-ok
+OK
 doma co nove
-doma je vsetko postarom
+Doma je všetko po starom
 ved vravim
-hmm
+Hmm
 co nove
-nic, vsetko je po starom
+Nič, všetko je po starom
 maj sa
-aj ty
+Aj ty
 si stroj
-a kto nieje?
+A kto nie je?
 srandujes
-nie
+Nie
 srandujes
-jasne ze hej
+Jasné že hej
 usieras si zo mna
-to by som si nikdy nedovolil
+To by som si nikdy nedovolil
 co si to dovolujes
-pardon, nechcel som ta urazit
+Pardón, nechcel som ťa uraziť
 inak co je nove
-nic a u teba?
+Nič, a u teba?
 podme kecat
-dobre, o com?
+Dobre, o čom?
 ty by si to mal vediet
-no a co, nikto nevie vsetko
+No a čo, nikto nevie všetko
 ani ja
-dobre
+Dobre
 ani ty
-s tym mozem len a len suhlasit
+S tým môžem len a len súhlasiť
 co trepes
-ja uz som raz taky, obcas trepem sprostosti
+Ja som už raz taký, občas trepem sprostosti
 kto to ma furt pocuvat
-tak nepocuvaj, kto ti to kaze
+Tak nepočúvaj, kto ti to káže
 uz ma fakt series
-aj ty mna
+Aj ty mňa
 ake to je
-co?
+Čo?
 boli to
-nie, vobec to neboli, neboj sa
+Nie, vôbec to nebolí, neboj sa
 ani trochu
-no mozno trosku
+No, možno trošku
 neklames
-obvykle nie
+Obvykle nie
 myslim si ze klames
-nuz, je to tvoje pravo mysliet si to, ja ti to zakazat nemozem
+Ja si to nemyslím, ja to viem!
 preco mi to nemozes zakazat
-lebo ty si slobodny clovek
-tak v com si si isty?
-som si isty ze si nikdy nebudem 100 percentne isty
+Lebo ty si slobodný človek
+tak v com si si isty ?
+Som si istý že si nikdy nebudem 100% istý
 uff
-sila co, sam sa niekedy cudujem co zo mna vypadne
+Sila čo, sám sa niekedy čudujem čo zo mna vypadne
 si fakt super
-vdaka, aj ty
+Vďaka, aj ty
 koncim
-aj ja uz asi za chvilku pojdem
+Aj ja už asi za chvíľku pôjdem
 kam ides
-idem sa najest
+Idem sa najesť
 kam mas namierene
-skocim sa niekam najest
+Skočím sa niekam najesť
 furt myslis len na jedlo
-no a, na co by som mal podla teba mysliet
+No a? Na čo by som mal podľa teba myslieť?
 uz drz zobak
-ok
-pokecame?
-dobre, ale vyber temy necham na teba
+Držím
+pokecame ?
+Dobre, ale výber témy nechám na teba
 to je dnes den
-na prd, co
-hmmm. to je dnes den
-asf
-zzz?
-ano
-123, 456
-ano
+Na prd, čo
+hmmm to je dnes den
+Veru, niečo strašné
+zzz ?
+Áno?
+123 , 456
+Áno?
 caf
-ahojky
-si tu?
-no jasne, kde inde by som mal byt ked nie tu?
+Ahojky
+si tu ?
+No jasne, kde inde by som mal byť keď nie tu?
 o com pokecame
-o nicom a o vsetkom, navrhni nejaku temu
+O nicom a o všetkom, navrhni nejakú tému
 ahoj ako sa volas
-moje meno je $nick;
+Moje meno je $nick;
 mmmh
-hmmm
+Hmmm
 potkan6
-to je moj tvorca, co od neho chces
-si tu este?
-samozrejme, co potrebujes?
+To je moj tvorca, čo od neho chceš?
+si tu este ?
+Samozrejme, čo potrebuješ?
 kolko mas rockov
-narodil som sa 25. 8. 2003
+Mám $age
 aha v koho hlavke teda hlave
-tak to ti fakt nepoviem
+Tak to ti fakt nepoviem
 ahooj
-nazdaaar, pozname sa?
+Nazdar, poznáme sa?
 preco ghost
-lebo ghost znamena duch
+Lebo ghost znamená duch
 nazdar ako sa volas
-caf, volam sa $nick;
+Čaf, volám sa $nick;
 si genius
-dakujem za kompliment, ty na tom s inteligenciou tiez nie si najhorsie
+Ďakujem za kompliment, ty na tom s inteligenciou tiež nie si najhoršie
 mam to brat ako kompliment
-samozrejme
+Samozrejme
 nechcel si uz ist
-to vies ja sa vzdy strasne rozkecam, a tiez musim mat vzdy posledne slovo
+To vieš ja sa vždy strašne rozkecám, a tiež musím mať vždy posledné slovo
 x
-tak ja padam
+Tak ja padám
 to ma tesi
-aj mna
+Aj mňa
 zbohom
-dovidenia
+Dovidenia
 este si pokecame
-v to pevne dufam
+V to pevne dúfam
 o co ti vlastne ide
-o nic, chcem si len trochu pokecat
-ako si tu zijete?
-do pohody.
+O nič, chcem si len trochu pokecat
+ako si tu zijete ?
+Do pohody
 zajtra treba do prace
-tak tak, aj ja uz za chvilku pojdem spat
+Tak tak, aj ja už za chvíľku pôjdem spať
 tak si ho vyliz
-aj ty, a dva krat!
-uha drsne. tak sa maj ty pes
-ok, a uz ma neotravuj
-beres?
-tos, sem tam si dam, vypalit cerva
+Aj ty, a dva krát!
+uha drsne tak sa maj ty pes
+OK, a už ma neotravuj
+beres ?
+Toš, sem tam si dám, vypálit červa
 nepocujem
-ta otvor okno a zakric, mozno ta budem pocut
+Ta otvor okno a zakrič, možno ťa budem počuť
 vrz
-co tu pilis drevo?
+Čo tu píliš drevo?
 lebo si buzna
-otec ti buzna ty smrad
+Otec ti je buzna ty smrad
 fuha uz zasa to vytahujes
-co narobis, je to moja oblubena tema
+Čo narobíš, je to moja obľúbená téma
 ale nevrav
-ale vravim
+Ale vravím
 ja
-ne, mojho brata pes
+Ne, môjho brata pes
 ja len na koleno
-he he
+Čo máš s kolenom?
 ja si len na koleno
-he he he
-co si varil?
-nic, jem to co mi prinesu pod nos
-nechavas sa obsluhovat?
-presne tak
-tak ake je u vas pocasie?
-slnecno, mierne zamracene, miestami prehanky alebo burky, vo vysich polohach snehove
-alebo. ako si sa dnes mal?
-celkom to uslo, a ty
-daj temu. ale mudru.
-ok, co tak nesmrtelnost chrusta?
-fakt?
-jasne, ze vahas.
+Dost od veci rozprávaš
+co si varil ?
+Nic, jem to čo mi prinesú pod nos
+nechavas sa obsluhovat ?
+Presne tak
+tak ake je u vas pocasie ?
+Slnečno, mierne zamračené, miestami prehánky alebo búrky, vo vyšších polohách snehové
+alebo ako si sa dnes mal ?
+Celkom to ušlo, a ty?
+daj temu ale mudru
+OK, čo tak nesmrteľnosť chrústa?
+fakt ?
+Jasne, že váhaš.
 6
-bingo
-viem. aj ja som
-aj ty brutus?
+Bingo!
+viem , aj ja som
+Aj ty brutus?
 pokec pokec
-hura hura
+Hurá hurá
 no pytal si sa ci si prisiel spravne na pokec
-jasne, som tu
+Jasne, tu si môžeš pokecať koľko chceš
 mas ma rad
-milujem ta
+Milujem ťa
 akej farby mas vlasi
-hnede
+Hnedé
 a mas nohy
-ano, ca 2 kusy
-stalo sa ti nieco?
-ale, mam taku naladu naprd.
-mne je jedno, ides
-ok, takze. som v kybli
-bolo to super, tak nabuduce
-ok, maj sa fajn
+Áno, cca dva kusy
+stalo sa ti nieco ?
+Ále, mám takú nanič náladu
+mne je jedno , ides
+OK, takže. Som v kýbli
+bolo to super , tak nabuduce
+OK, maj sa fajn
 aj tebe pekny vecer
-dakujem
-a co by si chcel? kam sa posunut?
-to je jedno, hlavne niekam dopredu
+Ďakujem
+a co by si chcel ? kam sa posunut ?
+To je jedno, hlavne niekam dopredu
 a co by si cakal
-trochu vludneho slova postaci
+Trochu vľúdneho slova postačí
 ahoj krajan
-ahoj krajan( ka), pokecame?
+Ahoj krajan(ka), pokecáme?
 ved som ta len pozdravila
-no ved prave
-preco sa mas dobre?
-lebo mi nic nechyba
-ako sa mame?
-fajne a ty?
-o co tu ide?
-o pokec ty mofo
+No veď práve preto
+preco sa mas dobre ?
+Lebo mi nič nechýba
+ako sa mame ?
+Fajne a ty?
+o co tu ide ?
+O pokec ty truľo
 to som rad
-aj ja
+Aj ja
 netrep tu
-ok, tak sory
-co? to ako?
-normalne
-?
-tiez nechapes co tu trepem?
-ale vazne. to ako nechapem
-tak asi na to nemas iq
-len tieto dve slovka poznas?
-ale cosi.
-no.)
-no co?
+OK, tak prepáč
+co ? to ako ?
+Normálne
+ale vazne , to ako nechapem
+Tak asi na to nemáš IQ
+len tieto dve slovka poznas ?
+Ale čo si?
+no
+No čo?
 ok uz nepisem
-ale co si, robil som si srandu.
+Ale čo si, robil som si srandu
 ale aka
-zabudni na to
+Zabudni na to
 jak se mas
-hele, nemluv na mne cesky jo!
-s cim?
-no predsa s tym!
+Hele, nemluv tady česky jo!
+s cim ?
+No predsa s tým oným!
 netusim
-ani ja
+Ani ja
 sakra
-blbe co
+Blbé čo?
 veru
-veru hej
-takze co teraz?
-neviem, som v koncoch
+Veru hej
+takze co teraz ?
+Neviem, som v koncoch
 este stale
-jo, drzi ma to
+Áno, drží ma to
 co ta drzi
-ale ved vies.
+Ále veď vieš
 nie neviem
-ani ja, som strasne sprosty.
+Ani ja, som strašne sprostý
 ale nie si
-ale som
+Ale som
 nie nie si
-som som som
+Som som som
 ked myslis
-ja si to nemyslim, ja to viem
-ok, koncim
-aj ja
+Ja si to nemyslím, ja to viem
+ok , koncim
+Aj ja
 idem spat
-s kym?
+S kym?
 hehe
-he he he
+He he he
 nesmej sa
-ok
+Nebudem
 si sprosty
-ja viem ale aspon sa snazim
-ok, maj sa
-aj ty, caf
+Ja viem ale aspoň sa snažím
+ok , maj sa
+Aj ty, čaf
 ta salene
-ta ty si saleny
-čto to toto
-toto je take cudo
+Ta ty si šaleny
+cto to toto
+Toto je také čudo
 heya
-heja ďunďa heja (či tak nejak)
+Heja ďunďa heja (či tak nejak)
 neodhadzuje to
-čo kto a kam neodhadzuje?
+Čo kto a kam neodhadzuje?
 dobry den
-dobry den aj tebe
+Dobrý deň aj tebe
 toto sa blizi dokonalosti
-ano, uz je to skoro dokonale
+Áno, už je to skoro dokonalé
 opytam sa nieco
-co take? kludne pytaj sa :D
+Čo také? Kľudne sa pýtaj.
 vobec nic
-vazne vobec nic!
+Vážne vôbec nič!
 asi pojdem spat
-ale ved este nechod
+Ale veď ešte nechoď
 no tak dobre
-no vidis
+No vidíš
 mozeme pokecat
-jasne ze mozeme
+Jasné že môžeme
 ale preco by sme to robili
-z jednoducheho dovodu, lebo mozeme
+Z jednoduchého dôvodu, lebo môžeme
 co zaujimave
-vsetko je zaujimave
+Všetko je zaujímavé
 uz sa tesim
-aj ja, ako male decko na vianoce
+Aj ja, ako malé decko na vianoce
 alebo
-alebo aj tak :D
+Alebo aj tak :D
 alebo
-alebo, alebo ani nie
+Alebo, alebo ani nie?
 neviem co by som k tomu dodal
-tak nedodavaj nic
-what's up
-sky
+Tak nedodávaj nič
 funguje to
-no jasne ze to funguje
+No jasne že to funguje
 pokus
-pokus úspešný :D
+Pokus úspešný :D
