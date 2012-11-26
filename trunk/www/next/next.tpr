@@ -1,0 +1,16 @@
+[FPDOCP]
+Params=-v
+
+[BUILD]
+Compiler=fpc
+
+[FILES]
+File0=README
+File1=ghost.php
+File2=tokenizer.php
+File3=stemmer.php
+File4=inverted.php
+File5=common.php
+File6=reindex.php
+File7=next.php
+File8=test.php

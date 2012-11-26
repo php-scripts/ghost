@@ -1,0 +1,41 @@
+
+  "ghost-next" is codename for ranked document retrieval version of ghost
+
+  It uses inverted index for storing data and ranked document retrieval for
+  finding best answer.
+
+  Source files:
+
+    ghost.php     - sample demo
+    tokenizer.php - split sentence into words
+    stemmer.php   - reduce word to it's stem, or simplify it (e.g. remove accents)
+    inverted.php  - creating, saving and loading inverted index, contains detailed explanation
+    common.php    - common functions
+    reindex.php   - helper page for generating index with additional checks
+    next.php      - document retrieval and scoring, main API function is ghostNextAsk($AQuestion,$ALanguage,...)
+    test.php      - various tests and sample code, contains also explanation of scoring
+
+  Data files and logs:
+
+    data/**/sam.dat      - questions and answers
+    data/**/improve.dat  - just like sam.dat, but contributed from user (so they require some check before they will go to sam.dat)
+    data/**/sam.idx      - inverted index for both sam.dat and improve.dat (in this order)
+    data/**/next.log     - log of asked question and found answer (only for demo ghost.php)
+    data/**/lurker.dat   - log for official ghost (main site)
+    data/**/lurker.local - just like lurker.dat but only active on localhost
+
+  TODO:
+  - porter stemmer
+  - some serious slovak equivalent of porter stemmer
+  - use logaritmic score, I currently use 1/tf score because it is simpler to debug
+  - some even more serious score like tf-idf
+  - fast incremental reindex for user contributed text
+    1. normalize Q (tokenizer+stemmer+implode(' ',words))
+    2. append QA to improve.dat, remember document id (count(sam)+count(improve)-1?)
+    3. add document id to all words in index, add new stem if it is not there yet
+    4. save index
+    - use this to replace old complicated contribution site
+
+
+
+
