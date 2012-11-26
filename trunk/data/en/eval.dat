@@ -1,5 +1,7 @@
 what time it is
 $time;
+what time is it
+$time;
 what is the time
 $time;
 anybody know what time it is
@@ -20,7 +22,7 @@ $timereply;
 right now is
 $timereply;
 it is
-what it the date
+what is the date
 $date;
 what date is today
 $date;
