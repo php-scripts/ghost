@@ -1,5 +1,6 @@
 <?php
   // add improved TOPIC to data file
+  require_once "next/common.php";
   require_once "sentence.php";
   
   // FIXME: make it universal, not just 5, I didnt have time/willpower so I copy-pasted it :(

@@ -27,6 +27,7 @@
   
     <form action="improve-add.php" method="get">
       <?php
+        require_once "next/common.php";
         require_once "sentence.php";
         $lang = ghostLanguage();
         if ($lang == 'en') {
