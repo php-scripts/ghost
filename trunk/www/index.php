@@ -99,8 +99,8 @@
         $fp = fopen('log.txt', 'a');
         fwrite($fp,"\n[".date(DATE_RFC822)."]\n");
         fwrite($fp,$_SERVER["REMOTE_ADDR"]."\n");
-        fwrite($fp,$_SERVER["HTTP_USER_AGENT"]."\n");
-        fwrite($fp,$_SERVER["HTTP_REFERER"]."\n");
+        fwrite($fp,@$_SERVER["HTTP_USER_AGENT"]."\n");
+        fwrite($fp,@$_SERVER["HTTP_REFERER"]."\n");
         fclose($fp);
     }
 

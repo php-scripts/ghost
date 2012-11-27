@@ -1,5 +1,6 @@
 <?php
   // add improved Q-A to data file
+  require_once "next/common.php";
   require_once "sentence.php";
   
   $question = trim(str_replace("\n"," ",htmlspecialchars(strip_tags($_REQUEST['question']))));
