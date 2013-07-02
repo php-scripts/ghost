@@ -134,7 +134,7 @@ div.buttons {
 div.feedback {
   font-weight: normal;
   padding-left: 20px;
-  background: url('purin2/tango/16x16/apps/system-users.png') no-repeat 0px 2px;
+  background: url('system-users.png') no-repeat 0px 2px;
   padding-bottom: 1ex;
 }
 
