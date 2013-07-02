@@ -9,11 +9,11 @@
   $language = ghostLanguage();
   
   // get parameters
-  $type1 = ghostParam('type1'); $match1 = ghostParam('match1'); echo "type=$type1 match=$match1<br/>";
-  $type2 = ghostParam('type2'); $match2 = ghostParam('match2'); echo "type=$type2 match=$match2<br/>";
-  $type3 = ghostParam('type3'); $match3 = ghostParam('match3'); echo "type=$type3 match=$match3<br/>";
-  $type4 = ghostParam('type4'); $match4 = ghostParam('match4'); echo "type=$type4 match=$match4<br/>";
-  $type5 = ghostParam('type5'); $match5 = ghostParam('match5'); echo "type=$type5 match=$match5<br/>";
+  $type1 = ghostParamStr('type1'); $match1 = ghostParamStr('match1'); echo "type=$type1 match=$match1<br/>";
+  $type2 = ghostParamStr('type2'); $match2 = ghostParamStr('match2'); echo "type=$type2 match=$match2<br/>";
+  $type3 = ghostParamStr('type3'); $match3 = ghostParamStr('match3'); echo "type=$type3 match=$match3<br/>";
+  $type4 = ghostParamStr('type4'); $match4 = ghostParamStr('match4'); echo "type=$type4 match=$match4<br/>";
+  $type5 = ghostParamStr('type5'); $match5 = ghostParamStr('match5'); echo "type=$type5 match=$match5<br/>";
   
   // normalize matches
   $match1 = ghostSentenceNormalize($match1);
