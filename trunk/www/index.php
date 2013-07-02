@@ -14,8 +14,9 @@
 	<body onload="document.getElementById('input1').focus(); if (localStorage && localStorage['name']) document.getElementById('name').value = localStorage['name']">
 
     <?php
-      require_once "purin2/core/core.php";
-      puLocalhostWarning();
+      if ($_SERVER['HTTP_HOST'] == 'localhost') {
+        echo '<center><div style="border: 1px solid gray; background: #FFFFAA;">localhost</div></center>';
+      }
     ?>
 
     <div id="logo">
