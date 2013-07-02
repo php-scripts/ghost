@@ -1,6 +1,5 @@
 <?php
   // remote cleanup for lurker logs (so I don't need to connect via ftp)
-  require_once "purin2.php";
   
   // current state
   echo "<h3><a href=\"data/en/lurker.dat\">English log</a></h3>";
@@ -18,7 +17,7 @@
   echo "</pre>";
 
   // erase them
-  if (@$_REQUEST[$lurker_clear_password]) {
+  if (@$_REQUEST['banana']) {
     file_put_contents('data/en/lurker.dat','');
     file_put_contents('data/sk/lurker.dat','');
     echo "<h3>Logs was ERASED</h3>";
