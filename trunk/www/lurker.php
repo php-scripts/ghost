@@ -10,7 +10,7 @@
       return '';  
     } else {
       // on localhost use different log
-      $f = fopen("data/$ALanguage/lurker.local", "a") or die("lurker: can't open data/$ALanguage/lurker.lodal file for append");
+      $f = fopen("data/$ALanguage/lurker.local", "a") or die("lurker: can't open data/$ALanguage/lurker.local file for append");
       fwrite($f, $AQuestion."\n");
       fclose($f);  
       return '';  
