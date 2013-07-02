@@ -21,9 +21,9 @@
   ghostLog("reindex hints=$hints, language=$language, stemmer_parameter=$stemmer_parameter\n",'reindex.log');
 
   // load data
-  $data = explode("\n",file_get_contents("data/$language/sam.dat").file_get_contents("data/$language/improve.dat"));
+  $data = explode("\n",file_get_contents("../data/$language/sam.dat").file_get_contents("../data/$language/improve.dat"));
   echo "data_count=".count($data)."\n";
-  $index_file = "data/$language/sam.idx";
+  $index_file = "../data/$language/sam.idx";
   echo "index_file=$index_file\n";
 
   // check if questions are canonical ("tokenizer+stemmer+implode" must reuturn the same question)
