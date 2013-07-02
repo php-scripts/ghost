@@ -107,6 +107,14 @@
 
     ?>  
 
+    <hr />
+    <div class="footer">
+      Download 
+        <a href="ghost-2013-07-02.tgz">tgz</a>
+        <a href="ghost-2013-07-02.zip">zip</a>,
+      Source hosted on 
+        <a href="http://code.google.com/p/ghost/">Google code</a>
+    </div>
     
 	</body>
 </html>

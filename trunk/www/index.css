@@ -155,4 +155,15 @@ span.name {
     display: none;
     width: 50px;
   }
+  div.footer {
+    display: none;
+  }
+}
+
+div.footer {
+    text-align: center;
+    font-size: small;
+}
+div.footer a {
+    text-decoration: underline;
 }
