@@ -3,7 +3,7 @@
   require_once "tinyrss.php";
   $lang = 'sk';
   if ($_REQUEST['lang']=='en') $lang = 'en';
-  tinyRssBegin("Recent user improvements - $lang","Last 20 improvements submited by users in $lang language","dusan.halicky@gmail.com","http://ayass.xf.cz/ghost/rss-improve.php");
+  tinyRssHeader("Recent user improvements - $lang","Last 20 improvements submited by users in $lang language","dusan.halicky@gmail.com","http://ayass.xf.cz/ghost/rss-improve.php");
   $file = file_get_contents("data/$lang/improve.dat");
   $lines = explode("\n",$file);
   $qa = array();
@@ -13,6 +13,6 @@
       break;
   }
   $file = implode("\n",$qa);
-  tinyRssItem(md5($file),"New improvements","http://ayass.xf.cz/ghost/","http://ayass.xf.cz/ghost/data/$lang/improve.dat",$file);
-  tinyRssEnd();
+  tinyRssItem("New improvements", $file, "http://ayass.xf.cz/ghost/", "http://ayass.xf.cz/ghost/data/$lang/improve.dat", md5($file));
+  tinyRssFooter();
 ?>
