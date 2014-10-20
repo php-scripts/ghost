@@ -4,15 +4,17 @@ body {
   margin: auto;
   padding-top: 1em;
   border: 0px solid gray;
+  background: #CCC url('img/bg.png') repeat;
+  color: #A5A5A5;
 }
 
 #logo {
   /* display: none; */
-  max-width: 200px;
-  min-height: 74px;
+  max-width: 300px;
+  min-height: 100px;
   margin-left: auto;
   margin-right: auto;
-  background: url('icon64.png') no-repeat;
+  background: url('img/logo.png') no-repeat;
 }
 
 #logo h1 {
@@ -30,21 +32,27 @@ body {
   color: gray;
 }
 
+#top_sub
+{
+    float: right; 
+}
+
+
 a {
   text-decoration: none;
-  color: black;
+  color: #A5A5A5;
 }
 
 a:visited {
-  color: black;
+  color: #666666;;
 }
 
 a:hover {
-  color: blue;
+  color: #666666;
 }
 
 input[type="text"] {
-  width: 80%;
+  width: 100%;
   margin: auto;
 }
 
@@ -66,9 +74,18 @@ div.question:before {
 }
 */
 
+.copy{
+	text-align: right;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	font-size: 11pt; 
+	right:5px;
+}
+
 div.question {
   padding-left: 20px;
-  background: url('user.png') no-repeat 0px 4px;
+  background: url('img/user.png') no-repeat 0px 4px;
 }
 
 /*
@@ -81,8 +98,9 @@ div.answer:before {
 div.answer {
   font-weight: bold;
   padding-left: 20px;
-  background: url('icon.png') no-repeat 0px 4px;
+  background: url('img/icon.png') no-repeat 0px 4px;
   padding-bottom: 1ex;
+  color: #CCC;
 }
 
 a.improve {
@@ -104,9 +122,10 @@ input.improve {
 div.feedbackform {
   width: 250px;
   float: right;
-  border: 1px solid gray;
+  border: 1px solid #000;
   border-radius: 5px;
   padding: 5px;
+  margin-bottom: 1em;
 }
 
 div.feedbackform input[type="text"] {
@@ -134,13 +153,14 @@ div.buttons {
 div.feedback {
   font-weight: normal;
   padding-left: 20px;
-  background: url('system-users.png') no-repeat 0px 2px;
+  background: url('img/system-users.png') no-repeat 0px 2px;
   padding-bottom: 1ex;
 }
 
 span.name {
   font-weight: bold;
   margin-right: 1ex;
+  color: #CCC;
 }
 
 @media only screen and (max-width: 600px) {
@@ -155,15 +175,8 @@ span.name {
     display: none;
     width: 50px;
   }
-  div.footer {
-    display: none;
-  }
 }
 
-div.footer {
-    text-align: center;
-    font-size: small;
-}
-div.footer a {
-    text-decoration: underline;
+input,textarea{
+    border: 1px solid #000;
 }
