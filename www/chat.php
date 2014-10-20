@@ -38,14 +38,7 @@
     $language = ghostLanguage();
 
     // ask various AI one by one
-    
-    // detect spam
-    if (isSpam($question)) {
-      logSpam($question);
-      $question = '[SPAM REMOVED]';
-      $answer = 'Sorry but your question was detected to be spam!';
-    }
-    
+
     // function for detecting which engine first replied
     $who_answered = 'nobody';
     function who($AEngine) {
@@ -54,7 +47,15 @@
         if ($who_answered == 'nobody')
           $who_answered = $AEngine;
     }
-
+    
+    // detect spam
+    if (isSpam($question)) {
+      logSpam($question);
+      $question = '[SPAM REMOVED]';
+      $answer = 'Sorry but your question was detected to be spam!';
+      who('antispam');
+    }
+    
     // first is just a logger
     if (empty($answer)) $answer = ghostLurkerAsk('human: '.$question,$language);
     
@@ -86,7 +87,7 @@
     // store answer to the begining of chat file
     $chat = "";
     $chat .= "<div class=\"question\">$question</div>\n";
-    $chat .= "<div class=\"answer\">$answer<a class=\"improve\" title=\"Click to improve answer\nEngine: $who_answered\" href=\"improve.php?lang=$language&question=$question&answer=$answer\">&#9997;</a></div>\n";
+    $chat .= "<div class=\"answer\">$answer<a class=\"improve\" title=\"Click to improve answer. Engine: $who_answered\" href=\"improve.php?lang=$language&question=$question&answer=$answer\">&#9997;</a></div>\n";
     $chat .= file_get_contents('chat.txt');
     // keep only first 20 lines
     $lines = explode("\n",$chat);
@@ -98,5 +99,5 @@
   
   // redirect back to index page
   if (!$debug)
-    header('Location: index.php?lang='.$language);
+    header('Location: index.php?lang='.$language.'&answer='.urlencode($answer));
 ?>
