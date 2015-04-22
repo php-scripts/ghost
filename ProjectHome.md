@@ -1,0 +1,1 @@
+Ghost is tiny console/web based chat bot AI. It is similar to projects Eliza, ALICE or Jabberwacky. It was writen in object pascal, then ported to PHP. It speak english and slovak language. You can try it here: http://ayass.xf.cz/ghost/
