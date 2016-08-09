@@ -29,7 +29,8 @@
       // does questiong start with this openings?
       $o = trim($openings[$i]);
       $a = strpos($q,$o);
-      if ( ($a > 0)||($a===0) ) {
+      if ( ($a > 0)||($a===0) ) 
+      {
         $country = substr($q,$a+strlen($o)+1,strlen($q));
       }
     } 
